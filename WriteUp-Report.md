@@ -9,8 +9,18 @@
 ### Reflection
 
 ### 1. PIPELINE DESCRIPTION
-
-
+The Software Pipeline built for Lane Detection consists of the following steps:
+1) Get the GreyScale Version of the Original Image
+2) Apply Gaussian Smoothing with a ser kernel size value to remove noise from the GreyScaled Image
+3) Apply Canny Edge Detection with upper and lower threshold values to select edges with strong gradients
+4) Get the ROI(region of interest) corresponding to the Road Lane Lines in the processed image by masking the image using 
+   cv2.fillPoly() function
+5) Run Hough transform Algorithm using the required parameters on masked edge-detected image
+6) Draw line segments
+7) Extrapolate and Average the Hough line segments corresponding to Left Lane and Right Lane by taking into consideration their slopes
+   and intercepts
+8) Draw lines corresponding to the Left Lane and Right Lane by getting the coordinates from their respective slopes and intercepts.
+8) Combine Hough lines image with original image to verify the accuracy of the annotated lane lines.
 
 
 ### 2. POTENTIAL SHORTCOMINGS
