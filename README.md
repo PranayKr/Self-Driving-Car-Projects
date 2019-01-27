@@ -40,7 +40,7 @@ For this project the task is to detect lane lines on road from LIVE-Video Feed o
     activate sdcnd
     
   c) Clone the repository (https://github.com/udacity/CarND-LaneLines-P1)
-     Then, install several dependencies (numpy/matplotlib/opencv) by executing the below commands in Anaconda Prompt Shell :
+     Then, install the dependencies (numpy/matplotlib/opencv libraries) by executing the below commands in Anaconda Prompt Shell :
      
      Windows:
      1) conda install numpy
