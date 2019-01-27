@@ -29,7 +29,7 @@ The Lane Detection Algorithm implemented has the below mentioned shortcomings :
 ### 3. POSSIBLE IMPROVEMENTS
 
 1) A generalized version of the current algorithm having a pipeline which can be dynamically optimized to do away with the dependencies 
-   required for getting the proper results would have to be developed which would be invariant to the 
+   required for getting the proper results would have to be developed which would be invariant to :- 
    1) Camera's Position and Angle / Orientation  2) Camera's Resolution 3) Lighting Conditions 4) Weather Conditions 
    
 2) Further finetuning of the Hough Transform Algorithm to detect lines edges with more variety of images having lanes in diffrent
