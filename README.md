@@ -66,14 +66,14 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   5) The source code present in the provided notebook (.ipynb file) can also be collated in respective new python
      file (.py file) and then executed directly from the Anaconda prompt shell window using the command "python <filename.py>". 
   
-  NOTE:
+  ### NOTE:
   All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab.
   
-  Lane Lines Detection Algorithm Implementation Details (Files Used) :
+  ### Lane Lines Detection Algorithm Implementation Details (Files Used) :
   
-  Open the mentioned Jupyter Notebook and execute all the cells : P1.ipynb
+  ### Open the mentioned Jupyter Notebook file and execute all the cells : P1.ipynb
   
-  Image Files used for Testing the Algorithm (present in the "test_images" folder):
+  ### Image Files used for Testing the Algorithm (present in the "test_images" folder):
   
   1) 'solidWhiteCurve.jpg',
   2) 'solidWhiteRight.jpg',
@@ -82,19 +82,19 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   5) 'solidYellowLeft.jpg',
   6) 'whiteCarLaneSwitch.jpg'
 
-  Video Files used for Testing the Algorithm (present in the "test_videos" folder):
+  ### Video Files used for Testing the Algorithm (present in the "test_videos" folder):
   
   1) 'solidWhiteRight.mp4'
   2) 'solidYellowLeft.mp4'
   
-  Results Output of Videos provided after Testing the Algorithm (present in the "test_videos_output" folder):
+  ### Results Output of Videos provided after Testing the Algorithm (present in the "test_videos_output" folder):
   
   1) 'solidWhiteRight_FiveSec.mp4'
   2) 'solidWhiteRight.mp4'
   3) 'solidYellowLeft.mp4'
   4) 'solidYellowLeft_FiveSec.mp4'
   
-  Results Output of Images provided after Testing the Algorithm (present in the "test_images_output" folder):
+  ### Results Output of Images provided after Testing the Algorithm (present in the "test_images_output" folder):
   
   1) 'solidWhiteCurve_OutputResult.PNG'
   2) 'solidWhiteRight_OutputResult.PNG'
