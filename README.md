@@ -53,7 +53,8 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
           
   e) Navigate to the CarND-LaneLines-P1/ folder 
   
-     Before running code in a notebook, change the kernel to match the sdcnd environment by using the drop-down Kernel menu.
+     Before running code in the notebook (P1.ipynb), change the kernel to match the sdcnd environment by using the drop-down Kernel 
+     menu.
      
 
 
