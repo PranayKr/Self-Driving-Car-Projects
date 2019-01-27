@@ -74,6 +74,7 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   Open the mentioned Jupyter Notebook and execute all the cells : P1.ipynb
   
   Image Files used for Testing the Algorithm (present in the "test_images" folder):
+  
   1)'solidWhiteCurve.jpg',
   2)'solidWhiteRight.jpg',
   3)'solidYellowCurve.jpg',
@@ -82,16 +83,19 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   6)'whiteCarLaneSwitch.jpg'
 
   Video Files used for Testing the Algorithm (present in the "test_videos" folder):
+  
   1)'solidWhiteRight.mp4'
   2)'solidYellowLeft.mp4'
   
   Results Output of Videos provided after Testing the Algorithm (present in the "test_videos_output" folder):
+  
   1) 'solidWhiteRight_FiveSec.mp4'
   2) 'solidWhiteRight.mp4'
   3) 'solidYellowLeft.mp4'
   4) 'solidYellowLeft_FiveSec.mp4'
   
   Results Output of Images provided after Testing the Algorithm (present in the "test_images_output" folder):
+  
   1)'solidWhiteCurve_OutputResult.PNG'
   2)'solidWhiteRight_OutputResult.PNG'
   3)'solidYellowCurve_OutputResult.PNG'
