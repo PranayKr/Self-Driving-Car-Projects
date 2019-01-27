@@ -24,7 +24,7 @@ The Software Pipeline built for Lane Detection consists of the following steps:
 
 ### 2. RESULTS SHOWCASE
 
-1) Graphs of the Image(solidWhiteCurve.jpg) showcasing the Pipeline Results at various stages
+Graphs of the Image (solidWhiteCurve.jpg) showcasing the Pipeline Results at various stages
 
 ![image1_greyscale](https://user-images.githubusercontent.com/25223180/51797231-a80bf100-2225-11e9-8263-6d88e6382fe2.PNG)
 
