@@ -10,13 +10,7 @@
 
 ### 1. PIPELINE DESCRIPTION
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
 
 
 ### 2. POTENTIAL SHORTCOMINGS
@@ -26,7 +20,10 @@ The Lane Detection Algorithm implemented has the below mentioned shortcomings :
    or tilt then the same results won't be achieved.
 2) If the resolution of the camera is changed accordingly the logic of the algorithm would have to be modified to get the results.
 3) The Lighting conditions in the LIVE Feed of the camera would affect the results
-4) If the weather conditons change from a clear sunny day to a stormy / snowy / rainy / cloudy day the results obtained would get affected
+4) If the weather conditons change from a clear sunny day to a stormy / snowy / rainy / cloudy day the results obtained would get
+   affected.
+5) For LIVE Feed having Lane Lines having high curvature instead of being straight i.e. at turning points on the road the algorithm
+   would not be that accurate in lane detection with its efficiency inversely proportional to the sharpness of turns on road.
 
 
 ### 3. POSSIBLE IMPROVEMENTS
@@ -35,7 +32,10 @@ The Lane Detection Algorithm implemented has the below mentioned shortcomings :
    required for getting the proper results would have to be developed which would be invariant to the 
    1) Camera's Position and Angle / Orientation  2) Camera's Resolution 3) Lighting Conditions 4) Weather Conditions 
    
-2) Building a Lane Detection Algorithm using Computer Vision Techniques (ConvNet Models) trained on a dataset of lane markings on road
+2) Further finetuning of the Hough Transform Algorithm to detect lines edges with more variety of images having lanes in diffrent
+   regions and lighting conditions / weather conditons / camera position and quality (resolutions / angles / orientations)
+   
+3) Building a Lane Detection Algorithm using Computer Vision Techniques (ConvNet Models) trained on a dataset of lane markings on road
    instead of using the general Image Processing Algorithms used in this implementation
 
 
