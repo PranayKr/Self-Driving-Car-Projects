@@ -22,6 +22,39 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
 
 # Result 3
 
+# Installation Instructions to setup the Project :
+# 1) Setting Up Python Environment :
+  a) Download and install Anaconda 3 (latest version 5.3) from this link (https://www.anaconda.com/download/)
+    for the specific Operating System and Architecure (64-bit or 32-bit) being used
+    for Python 3.6 + version onwards
+    
+  b) Create (and activate) a new environment with Python 3.6.:
+    Open Anaconda prompt and then execute the below given commands
+    
+    Linux or Mac:
+    conda create --name sdcnd python=3.6
+    source activate sdcnd
+    
+    Windows:
+    conda create --name sdcnd python=3.6 
+    activate sdcnd
+    
+  c) Clone the repository (https://github.com/udacity/CarND-LaneLines-P1)
+     Then, install several dependencies (numpy/matplotlib/opencv) by executing the below commands in Anaconda Prompt Shell :
+     
+     Windows:
+     1) conda install numpy
+     2) conda install -c conda-forge matplotlib     
+     3) conda install -c conda-forge opencv
+     
+  d) Create an Ipython Kernel for the sdcnd environment :
+      
+     python -m ipykernel install --user --name sdcnd --display-name "sdcnd"   
+          
+  e) Navigate to the CarND-LaneLines-P1/ folder 
+  
+     Before running code in a notebook, change the kernel to match the sdcnd environment by using the drop-down Kernel menu.
+     
 
 
 
