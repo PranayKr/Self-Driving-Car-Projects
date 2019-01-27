@@ -45,9 +45,7 @@ Graphs of the Image (solidWhiteCurve.jpg) showcasing the Pipeline Results at var
 
 ![image1_finalresult](https://user-images.githubusercontent.com/25223180/51797253-fc16d580-2225-11e9-8157-ae10b035d974.PNG)
 
-
-
-### 3. POTENTIAL SHORTCOMINGS
+### 4. POTENTIAL SHORTCOMINGS
 The Lane Detection Algorithm implemented has the below mentioned shortcomings :
 1) The Algorithm would work properly only when the Camera is placed at a fixed position on top
    of the car's hood . If the position of the camera is changed such that it is not directly facing the road ahead but at a certain angle 
@@ -60,7 +58,7 @@ The Lane Detection Algorithm implemented has the below mentioned shortcomings :
    would not be that accurate in lane detection with its efficiency inversely proportional to the sharpness of turns on road.
 
 
-### 4. POSSIBLE IMPROVEMENTS
+### 5. POSSIBLE IMPROVEMENTS
 
 1) A generalized version of the current algorithm having a pipeline which can be dynamically optimized to do away with the dependencies 
    required for getting the proper results would have to be developed which would be invariant to :- 
@@ -74,6 +72,3 @@ The Lane Detection Algorithm implemented has the below mentioned shortcomings :
    
 3) Building a Lane Detection Algorithm using Computer Vision Techniques (ConvNet Models) trained on a dataset of lane markings on road
    instead of using the general Image Processing Algorithms used in this implementation
-
-
-
