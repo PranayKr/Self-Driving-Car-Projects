@@ -1,6 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
