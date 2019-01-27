@@ -75,17 +75,17 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   
   Image Files used for Testing the Algorithm (present in the "test_images" folder):
   
-  1)'solidWhiteCurve.jpg',
-  2)'solidWhiteRight.jpg',
-  3)'solidYellowCurve.jpg',
-  4)'solidYellowCurve2.jpg',
-  5)'solidYellowLeft.jpg',
-  6)'whiteCarLaneSwitch.jpg'
+  1) 'solidWhiteCurve.jpg',
+  2) 'solidWhiteRight.jpg',
+  3) 'solidYellowCurve.jpg',
+  4) 'solidYellowCurve2.jpg',
+  5) 'solidYellowLeft.jpg',
+  6) 'whiteCarLaneSwitch.jpg'
 
   Video Files used for Testing the Algorithm (present in the "test_videos" folder):
   
-  1)'solidWhiteRight.mp4'
-  2)'solidYellowLeft.mp4'
+  1) 'solidWhiteRight.mp4'
+  2) 'solidYellowLeft.mp4'
   
   Results Output of Videos provided after Testing the Algorithm (present in the "test_videos_output" folder):
   
@@ -96,12 +96,12 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   
   Results Output of Images provided after Testing the Algorithm (present in the "test_images_output" folder):
   
-  1)'solidWhiteCurve_OutputResult.PNG'
-  2)'solidWhiteRight_OutputResult.PNG'
-  3)'solidYellowCurve_OutputResult.PNG'
-  4)'solidYellowCurve2_OutputResult.PNG'
-  5)'solidYellowLeft_OutputResult.PNG'
-  6)'whiteCarLaneSwitch_OutputResult.PNG'
+  1) 'solidWhiteCurve_OutputResult.PNG'
+  2) 'solidWhiteRight_OutputResult.PNG'
+  3) 'solidYellowCurve_OutputResult.PNG'
+  4) 'solidYellowCurve2_OutputResult.PNG'
+  5) 'solidYellowLeft_OutputResult.PNG'
+  6) 'whiteCarLaneSwitch_OutputResult.PNG'
   
   
   
