@@ -23,7 +23,7 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
 # Result 3
 
 # Installation Instructions to setup the Project :
-# 1) Setting Up Python Environment :
+### Setting Up Python Environment :
   a) Download and install Anaconda 3 (latest version 5.3) from this link (https://www.anaconda.com/download/)
     for the specific Operating System and Architecure (64-bit or 32-bit) being used
     for Python 3.6 + version onwards
@@ -103,11 +103,3 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   5) 'solidYellowLeft_OutputResult.PNG'
   6) 'whiteCarLaneSwitch_OutputResult.PNG'
   
-  
-  
-
-
-  
-
-
-
