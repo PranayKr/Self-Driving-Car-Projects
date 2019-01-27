@@ -22,8 +22,19 @@ The Software Pipeline built for Lane Detection consists of the following steps:
 8) Draw lines corresponding to the Left Lane and Right Lane by getting the coordinates from their respective slopes and intercepts.
 8) Combine Hough lines image with original image to verify the accuracy of the annotated lane lines.
 
+### 2. RESULTS SHOWCASE
 
-### 2. POTENTIAL SHORTCOMINGS
+1) Graphs of the Image(solidWhiteCurve.jpg) showcasing the Pipeline Results at various stages
+
+![image1_greyscale](https://user-images.githubusercontent.com/25223180/51797231-a80bf100-2225-11e9-8263-6d88e6382fe2.PNG)
+
+![image1_houghtrnsfrm](https://user-images.githubusercontent.com/25223180/51797240-d12c8180-2225-11e9-8453-a35f89284359.PNG)
+
+![image1_finalresult](https://user-images.githubusercontent.com/25223180/51797253-fc16d580-2225-11e9-8157-ae10b035d974.PNG)
+
+
+
+### 3. POTENTIAL SHORTCOMINGS
 The Lane Detection Algorithm implemented has the below mentioned shortcomings :
 1) The Algorithm would work properly only when the Camera is placed at a fixed position on top
    of the car's hood . If the position of the camera is changed such that it is not directly facing the road ahead but at a certain angle 
@@ -36,7 +47,7 @@ The Lane Detection Algorithm implemented has the below mentioned shortcomings :
    would not be that accurate in lane detection with its efficiency inversely proportional to the sharpness of turns on road.
 
 
-### 3. POSSIBLE IMPROVEMENTS
+### 4. POSSIBLE IMPROVEMENTS
 
 1) A generalized version of the current algorithm having a pipeline which can be dynamically optimized to do away with the dependencies 
    required for getting the proper results would have to be developed which would be invariant to :- 
