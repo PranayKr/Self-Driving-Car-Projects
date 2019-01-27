@@ -56,7 +56,46 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
      Before running code in the notebook (P1.ipynb), change the kernel to match the sdcnd environment by using the drop-down Kernel 
      menu.
      
+# Details of running the Code Implementation :
+  1) First of all clone this repository (https://github.com/PranayKr/Self-Driving-Car-Projects.git) on local system.
+  2) Open Anaconda prompt shell window and navigate inside the CarND-LaneLines-P1/ folder in the Deep-RL cloned repository folder.
+  3) Run the command "jupyter notebook" from the Anaconda prompt shell window to open the jupyter notebook web-app tool in the browser
+     from where the source code present in notebook(.ipynb file) can be opened.
+  4) Before running/executing code in a notebook, change the kernel (IPython Kernel created for sdcnd environment) to match the sdcnd
+     environment by using the drop-down Kernel menu.
+  5) The source code present in the provided notebook (.ipynb file) can also be collated in respective new python
+     file (.py file) and then executed directly from the Anaconda prompt shell window using the command "python <filename.py>". 
+  
+  NOTE:
+  All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab.
+  
+  Lane Lines Detection Algorithm Implementation Details (Files Used) :
+  
+  Open the mentioned Jupyter Notebook and execute all the cells : P1.ipynb
+  
+  Image Files used for Testing the Algorithm (present in the "test_images" folder):
+  1)'solidWhiteCurve.jpg',
+  2)'solidWhiteRight.jpg',
+  3)'solidYellowCurve.jpg',
+  4)'solidYellowCurve2.jpg',
+  5)'solidYellowLeft.jpg',
+  6)'whiteCarLaneSwitch.jpg'
 
+  Video Files used for Testing the Algorithm (present in the "test_videos" folder):
+  1)'solidWhiteRight.mp4'
+  2)'solidYellowLeft.mp4'
+  
+  Results Output provided after Testing the Algorithm (present in the "test_videos_output" folder):
+  1) 'solidWhiteRight_FiveSec.mp4'
+  2) 'solidWhiteRight.mp4'
+  3) 'solidYellowLeft.mp4'
+  4) 'solidYellowLeft_FiveSec.mp4'
+  
+  
+  
+
+
+  
 
 
 
