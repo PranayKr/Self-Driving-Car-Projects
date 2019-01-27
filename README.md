@@ -85,11 +85,19 @@ Graphs of the Image (solidYellowCurve.jpg) showcasing the Pipeline Results at va
   1)'solidWhiteRight.mp4'
   2)'solidYellowLeft.mp4'
   
-  Results Output provided after Testing the Algorithm (present in the "test_videos_output" folder):
+  Results Output of Videos provided after Testing the Algorithm (present in the "test_videos_output" folder):
   1) 'solidWhiteRight_FiveSec.mp4'
   2) 'solidWhiteRight.mp4'
   3) 'solidYellowLeft.mp4'
   4) 'solidYellowLeft_FiveSec.mp4'
+  
+  Results Output of Images provided after Testing the Algorithm (present in the "test_images_output" folder):
+  1)'solidWhiteCurve_OutputResult.PNG'
+  2)'solidWhiteRight_OutputResult.PNG'
+  3)'solidYellowCurve_OutputResult.PNG'
+  4)'solidYellowCurve2_OutputResult.PNG'
+  5)'solidYellowLeft_OutputResult.PNG'
+  6)'whiteCarLaneSwitch_OutputResult.PNG'
   
   
   
