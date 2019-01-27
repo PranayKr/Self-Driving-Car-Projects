@@ -22,7 +22,20 @@ The Software Pipeline built for Lane Detection consists of the following steps:
 8) Draw lines corresponding to the Left Lane and Right Lane by getting the coordinates from their respective slopes and intercepts.
 8) Combine Hough lines image with original image to verify the accuracy of the annotated lane lines.
 
-### 2. RESULTS SHOWCASE
+### 2. PARAMETERS USED :
+# GAUSSIAN SMOOTHING PARAMETER
+1) kernel_size =5 (KERNEL SIZE value used for denoising the GreyScaled Image)
+# CANNY EDGE DETECTION PARAMETERS
+2) low_threshold = 50 (lower limit set for selection of pixels of a certain gradient corresponding to edges)
+3) high_threshold = 150 (upper limit set for selection of pixels of a certain gradient corresponding to edges)
+# HOUGH LINE TRANSFORM PARAMETERS
+4) rho = 2 (distance resolution in pixels of the Hough grid)
+5) theta = np.pi/180 (angular resolution in radians of the Hough grid)
+6) threshold = 45 (minimum number of votes (intersections in Hough grid cell))
+7) min_line_length = 40 (minimum number of pixels making up a line)
+8) max_line_gap = 100 (maximum gap in pixels between connectable line segments)
+
+### 3. RESULTS SHOWCASE
 
 Graphs of the Image (solidWhiteCurve.jpg) showcasing the Pipeline Results at various stages
 
