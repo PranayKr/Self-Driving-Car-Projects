@@ -15,7 +15,7 @@ a Image Analysis Pipeline using multiple image processing concepts and algorithm
 # Binary Threshold Image
 ![perspectivetrnsfrm_img1](https://user-images.githubusercontent.com/25223180/52179550-0b87b700-2802-11e9-8dfa-352a90c8844b.PNG)
 # Perspective Transformed Image
-
+![lanes_detected_1](https://user-images.githubusercontent.com/25223180/52179561-29edb280-2802-11e9-9153-87d384eaa83f.PNG)
 # Detected Lanes Plotted on Warped Image
 
 # Detected Lanes Plotted on Original Image
