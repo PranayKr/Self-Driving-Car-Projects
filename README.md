@@ -7,7 +7,7 @@ a Image Analysis Pipeline using multiple image processing concepts and algorithm
 # Results Showcase
 ![advanced-lane-detection-result](https://user-images.githubusercontent.com/25223180/52178715-e7bf7380-27f7-11e9-9aff-95dbe9aa0410.gif)
 # Lane Detection Result on Video
-
+![undistorted_checkboard14](https://user-images.githubusercontent.com/25223180/52179472-1beb6200-2801-11e9-8fcf-bbff1d1957d5.PNG)
 # Distortion Correction on Chessboard Image
 
 # Distortion Correction on Test Image
