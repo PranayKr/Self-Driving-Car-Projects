@@ -91,7 +91,7 @@ a Image Analysis Pipeline using multiple image processing concepts and algorithm
  
   ### Results Output of Images provided after Testing the Algorithm (present in the "Undistorted_Images", 
   ### "Binary_Threshold_Images","PerspectiveTrnsfrm_Images","Display_DetectedLanes" ,
-  ### "Final_TestImagesResult" and "Final_TestImagesResult_Validated" folder):
+  ### "Final_TestImagesResult" and "Final_TestImagesResult_Validated" folders):
   1) 'Undistorted_Checkboard*.PNG' (* in range of 1 to 20)
   2) 'Undistorted_TestImg*.PNG' (* in range of 1 to 8)
   3) 'Binary_ThreshImg_*.PNG' (* in range of 1 to 6)
