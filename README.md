@@ -5,4 +5,5 @@ For this project the task is to accurately identify lane boundaries in a video f
 a Image Analysis Pipeline using multiple image processing concepts and algorithms
 
 # Results Showcase
+![advanced-lane-detection-result](https://user-images.githubusercontent.com/25223180/52178715-e7bf7380-27f7-11e9-9aff-95dbe9aa0410.gif)
 
