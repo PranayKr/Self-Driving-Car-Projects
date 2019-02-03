@@ -1,8 +1,13 @@
+# **Advanced Lane Finding Project**
 
-**Advanced Lane Finding Project**
+[//]: # (Image References)
 
-The goals / steps of this project are the following:
+[image1]: ./examples/grayscale.jpg "Grayscale"
 
+---
+
+### 1. PIPELINE DESCRIPTION
+The Software Pipeline built for Advanced Lane Detection consists of the following steps:
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
 * Use color transforms, gradients, etc., to create a thresholded binary image.
