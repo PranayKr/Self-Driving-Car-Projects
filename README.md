@@ -1,1 +1,1 @@
-# Self-Driving-Car-Projects
+# Implementation of an Advanced Lane-Detection-Algorithm by applying concepts of Camera Calibration , Distortion Correction , Color Transform , Gradient Threshold , Perspective Transform , Histogram Peak and Sliding Windows methods for Lane Detection , Radius of Curvature and Relative Vehicle Postion Calculations
