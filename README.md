@@ -14,7 +14,7 @@ a Image Analysis Pipeline using multiple image processing concepts and algorithm
 
 # Binary Threshold Image
 
-# Persprctive Transformed Image
+# Perspective Transformed Image
 
 # Detected Lanes Plotted on Warped Image
 
