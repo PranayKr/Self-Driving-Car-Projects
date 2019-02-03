@@ -11,7 +11,7 @@ a Image Analysis Pipeline using multiple image processing concepts and algorithm
 # Distortion Correction on Chessboard Image
 ![undistorted_testimg1](https://user-images.githubusercontent.com/25223180/52179509-974d1380-2801-11e9-8a0c-922a1d7933a5.PNG)
 # Distortion Correction on Test Image
-
+![binary_threshimg_1](https://user-images.githubusercontent.com/25223180/52179538-edba5200-2801-11e9-817a-51ec359e4cc0.PNG)
 # Binary Threshold Image
 
 # Perspective Transformed Image
