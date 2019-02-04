@@ -46,11 +46,16 @@ Below are the results achieved by applying the above algorithm to undistort imag
 ![undistorted_checkboard12](https://user-images.githubusercontent.com/25223180/52215660-87ddd100-28ba-11e9-8304-eb9547267867.PNG)
 ![undistorted_testimg4](https://user-images.githubusercontent.com/25223180/52209300-835cec80-28a9-11e9-9842-48c0fe64ddc3.PNG)
 
-#### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
+#### 2. Threshold Binary Image Generation
+### Code Snapshots
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  Here's an example of my output for this step.  (note: this is not actually from one of the test images)
+I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  
 
-![alt text][image3]
+The code for this step is contained in the above displayed Code Cells of the Jupyter Notebook (Advanced_Lane_Detection.ipynb) located 
+in CarND-Advanced-Lane-Lines/ folder
+## Explanation of the logic for this step 
+
+Below are the results achieved by applying the above algorithm to generate Threshold Binary Image on Undistorted Images obtained from previous step.
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
