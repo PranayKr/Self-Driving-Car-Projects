@@ -131,8 +131,9 @@ Images obtained from previous step
 ![perspectivetrnsfrm_img3](https://user-images.githubusercontent.com/25223180/52241242-225d0500-28f9-11e9-86f2-1233a4a11306.PNG)
 As is evident from the above results that the lane lines appear parallel in the warped images thus validating that the perspective
 transform logic is working as expected.
-### 4. Lane-Line pixels identification using Histogram Peak Calculation and Slding Windows Approach followed by fitting the pixels
-###    with a 2nd-order polynomial
+### 4. Lane-Line pixels identification using Histogram Peak Calculation and Slding Windows Approach followed by fitting the pixels with a 2nd-order polynomial
+
+
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
