@@ -24,7 +24,7 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 ![camera_calib_codesnapshot_3](https://user-images.githubusercontent.com/25223180/52207629-024f2680-28a4-11e9-9102-a177f089ce6f.PNG)
 ![camera_calib_codesnapshot_4](https://user-images.githubusercontent.com/25223180/52207634-054a1700-28a4-11e9-9739-9cbd22d7df15.PNG)
 
-The code for this step is contained in the above displayed Code Cells of the IPython notebook (Advanced_Lane_Detection.ipynb) located 
+The code for this step is contained in the above displayed Code Cells of the Jupyter Notebook (Advanced_Lane_Detection.ipynb) located 
 in CarND-Advanced-Lane-Lines/ folder
 ## Explanation of the logic for this step 
 Camera Calibration is required as the camera distorts the shape and size of 3-D objects as they are captured by camera lens in a 2-D 
