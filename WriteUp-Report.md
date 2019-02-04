@@ -23,9 +23,9 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 ![camera_calib_codesnapshot_2](https://user-images.githubusercontent.com/25223180/52207625-ff543600-28a3-11e9-8e37-85b084195797.PNG)
 ![camera_calib_codesnapshot_3](https://user-images.githubusercontent.com/25223180/52207629-024f2680-28a4-11e9-9102-a177f089ce6f.PNG)
 ![camera_calib_codesnapshot_4](https://user-images.githubusercontent.com/25223180/52207634-054a1700-28a4-11e9-9739-9cbd22d7df15.PNG)
-
-
-The code for this step is contained in the first code cell of the IPython notebook located in "./examples/example.ipynb" (or in lines # through # of the file called `some_file.py`).  
+The code for this step is contained in the above displayed Code Cells of the IPython notebook (Advanced_Lane_Detection.ipynb) located in 
+CarND-Advanced-Lane-Lines/ folder
+## Explanation of the logic for this step 
 
 I start by preparing "object points", which will be the (x, y, z) coordinates of the chessboard corners in the world. Here I am assuming the chessboard is fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `objp` is just a replicated array of coordinates, and `objpoints` will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `imgpoints` will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  
 
