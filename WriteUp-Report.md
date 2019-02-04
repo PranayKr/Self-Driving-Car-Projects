@@ -60,8 +60,37 @@ The code for this step is contained in the above displayed Code Cells (Cell numb
 (Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 158-272 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
 ## Explanation of the logic for this step
+Gradient Threshold Calculations are required to isolate only the pixels corresponding to Lane Edges in a given undistorted image instead
+of directly using Canny Edge Detection method which outputs edges of surrounding background and other objects such as vehicles/ trees/
+buildings as well. Canny Edge Detection internally uses Sobel-x and Sobel-y operators to calculate gradients along the x and y-axes.
+For implementation of this combined gradient threshold is calculated combining the results of sobel-x and sobel-y operators , magnitude
+threshold and direction threshold.
+
+For getting gradient threshold along x and y directions the folliwng steps are used :
+1) The undistorted image is converted to grayscale
+2) cv2.Sobel() fucntion is applied
+3) The absolute value of the derivative or gradient calculated using cv2.Sobel() fucntion is calculated using np.absolute()
+4) The absolute value is scale to 8-bit (0 - 255) then convert to type = np.uint8
+5) Lower and upper thresholds of values 20 and 100 are applied on the scaled absolute gradient
+6) This masked output is returned as binary output 
+Magnitude Gradient threshold is calculated in a similar way the only difference being that first of all the magnitude gradient is 
+calculated by taking the square root of the sum of the squares of gardients/ derivatives along x and y-directions (outputs of Sobel-x
+and Sobel-y operators)
+Direction Gradient Threshold is calculated by taking the inverse tangent of quotient of absolute gradient over y-direction over the 
+absolute gradient over x-direction and applying a mask using the lower threshold value of 0.7 and upper threshold value of 1.3 to get
+the binary output.
+
+Now once the combined gradient threshold is available Color Gradient Threshold output is also calculated by the following steps:
+The undistored image is converted used the function cv2.cvtColor() first to RGB color space and then to HLS Color Space. The 
+S- Channel of the converted image (Saturation cahnnel)  is isolated to apply a mask using lower color threshold value of 150 and upper 
+color threshold value of 255
+
+Now both the combined gradient threshold output and color threshold outputs are combined to generate the final threshold binary image
+with the Lane Edges pixels isloted in the entire image to maximum possibel extent.
 
 Below are the results achieved by applying the above algorithm to generate Threshold Binary Image on Undistorted Images obtained from previous step.
+
+
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
