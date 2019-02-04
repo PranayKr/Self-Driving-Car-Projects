@@ -125,7 +125,7 @@ Following are the steps to apply perspective tranform on the generated Binary Th
    the binary threshold image , Perspective Transform Matrix from previous step , the size of the warped image to be generated and 
    a flag cv2.INTER_NEAREST to interpolate the missing points / coordinates while generating the warped image are passed as arguments
 
-Below are the results achieved by applying the above algorithm to generate Perspective Transformed Image on generated Binary Threshold 
+Below are the results achieved by applying the above algorithm to generate Perspective Transformed Images on generated Binary Threshold 
 Images obtained from previous step
 ![perspectivetrnsfrm_img2](https://user-images.githubusercontent.com/25223180/52241236-1ec97e00-28f9-11e9-9f2a-704386d85238.PNG)
 ![perspectivetrnsfrm_img3](https://user-images.githubusercontent.com/25223180/52241242-225d0500-28f9-11e9-86f2-1233a4a11306.PNG)
