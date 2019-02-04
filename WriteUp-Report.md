@@ -127,8 +127,9 @@ Following are the steps to apply perspective tranform on the generated Binary Th
 
 Below are the results achieved by applying the above algorithm to generate Perspective Transformed Image on generated Binary Threshold 
 Images obtained from previous step
-
-As is evident from the above result that the lane lines appear parallel in the warped image thus validating that the prespective
+![perspectivetrnsfrm_img2](https://user-images.githubusercontent.com/25223180/52241236-1ec97e00-28f9-11e9-9f2a-704386d85238.PNG)
+![perspectivetrnsfrm_img3](https://user-images.githubusercontent.com/25223180/52241242-225d0500-28f9-11e9-86f2-1233a4a11306.PNG)
+As is evident from the above results that the lane lines appear parallel in the warped images thus validating that the perspective
 transform logic is working as expected.
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
