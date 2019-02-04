@@ -132,8 +132,15 @@ Images obtained from previous step
 As is evident from the above results that the lane lines appear parallel in the warped images thus validating that the perspective
 transform logic is working as expected.
 ### 4. Lane-Line pixels identification using Histogram Peak Calculation and Slding Windows Approach followed by fitting the pixels with a 2nd-order polynomial
+### Code Snapshots
 
+The code for this step is contained in the above displayed Code Cells (Cell numbers 15,16,17) of the Jupyter Notebook
+(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 277-323 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+## Explanation of the logic for this step
 
+Below are the results achieved by applying the above algorithm to generate Perspective Transformed Images on generated Binary Threshold 
+Images obtained from previous step
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
