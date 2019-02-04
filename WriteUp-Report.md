@@ -24,8 +24,10 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 ![camera_calib_codesnapshot_3](https://user-images.githubusercontent.com/25223180/52207629-024f2680-28a4-11e9-9102-a177f089ce6f.PNG)
 ![camera_calib_codesnapshot_4](https://user-images.githubusercontent.com/25223180/52207634-054a1700-28a4-11e9-9739-9cbd22d7df15.PNG)
 
-The code for this step is contained in the above displayed Code Cells of the Jupyter Notebook (Advanced_Lane_Detection.ipynb) located 
-in CarND-Advanced-Lane-Lines/ folder
+The code for this step is contained in the above displayed Code Cells (Cell numbers 2,3,4,5,6,7,8,9,10,11) of the Jupyter Notebook
+(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 38-154 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+
 ## Explanation of the logic for this step 
 Camera Calibration is required as the camera distorts the shape and size of 3-D objects as they are captured by camera lens in a 2-D 
 Frame . In order to implement this the 3-D realtime Coordinates of a known object need to be mapped to the 2-D Coordinates of the Camera
@@ -54,11 +56,10 @@ Below are the results achieved by applying the above algorithm to undistort imag
 ![code_snippet_4](https://user-images.githubusercontent.com/25223180/52234568-ff762500-28e7-11e9-9ae1-3be24ee8c0d8.PNG)
 ![code_snippet_5](https://user-images.githubusercontent.com/25223180/52234576-02711580-28e8-11e9-8bfd-ec7a534f75c8.PNG)
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  
-
-The code for this step is contained in the above displayed Code Cells of the Jupyter Notebook (Advanced_Lane_Detection.ipynb) located 
-in CarND-Advanced-Lane-Lines/ folder
-## Explanation of the logic for this step 
+The code for this step is contained in the above displayed Code Cells (Cell numbers 12,13,14) of the Jupyter Notebook
+(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 158-272 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+## Explanation of the logic for this step
 
 Below are the results achieved by applying the above algorithm to generate Threshold Binary Image on Undistorted Images obtained from previous step.
 
