@@ -140,6 +140,7 @@ transform logic is working as expected.
 ![code_snippet_5](https://user-images.githubusercontent.com/25223180/52242466-c72d1180-28fc-11e9-9083-5c8997a80ba9.PNG)
 ![code_snippet_6](https://user-images.githubusercontent.com/25223180/52242472-cb592f00-28fc-11e9-8f9b-69304a043d00.PNG)
 ![code_snippet_7](https://user-images.githubusercontent.com/25223180/52242480-ce541f80-28fc-11e9-9734-51deac774920.PNG)
+
 The code for this step is contained in the above displayed Code Cells (Cell numbers 18,19,20) of the Jupyter Notebook
 (Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 327-499 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
