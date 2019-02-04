@@ -88,10 +88,19 @@ color threshold value of 255
 Now both the combined gradient threshold output and color threshold outputs are combined to generate the final threshold binary image
 with the Lane Edges pixels isloted in the entire image to maximum possibel extent.
 
-Below are the results achieved by applying the above algorithm to generate Threshold Binary Image on Undistorted Images obtained from previous step.
+Below are the results achieved by applying the above algorithm to generate Threshold Binary Image on Undistorted Image obtained from previous step.
 ![binary_threshimg_2](https://user-images.githubusercontent.com/25223180/52237577-ee311680-28ef-11e9-9040-f52fe21ef424.PNG)
 
-#### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
+### 3. Perspective Transform Step
+### Code Snapshots
+
+The code for this step is contained in the above displayed Code Cells (Cell numbers 15,16,17) of the Jupyter Notebook
+(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 277-323 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+## Explanation of the logic for this step
+
+Below are the results achieved by applying the above algorithm to generate Perspective Transformed Image on generated Binary Threshold 
+Images obtained from previous step.
 
 The code for my perspective transform includes a function called `warper()`, which appears in lines 1 through 8 in the file `example.py` (output_images/examples/example.py) (or, for example, in the 3rd code cell of the IPython notebook).  The `warper()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
 
