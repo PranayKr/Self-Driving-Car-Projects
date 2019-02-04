@@ -46,7 +46,7 @@ Below are the results achieved by applying the above algorithm to undistort imag
 ![undistorted_checkboard12](https://user-images.githubusercontent.com/25223180/52215660-87ddd100-28ba-11e9-8304-eb9547267867.PNG)
 ![undistorted_testimg4](https://user-images.githubusercontent.com/25223180/52209300-835cec80-28a9-11e9-9842-48c0fe64ddc3.PNG)
 
-#### 2. Threshold Binary Image Generation
+### 2. Threshold Binary Image Generation
 ### Code Snapshots
 
 I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  
