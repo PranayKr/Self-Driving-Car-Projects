@@ -19,7 +19,10 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 
 ### Camera Calibration 
 ### Code Snapshots
-
+![camera_calib_codesnapshot_](https://user-images.githubusercontent.com/25223180/52207620-fb281880-28a3-11e9-87b1-9dd46d3a887f.PNG)
+![camera_calib_codesnapshot_2](https://user-images.githubusercontent.com/25223180/52207625-ff543600-28a3-11e9-8e37-85b084195797.PNG)
+![camera_calib_codesnapshot_3](https://user-images.githubusercontent.com/25223180/52207629-024f2680-28a4-11e9-9102-a177f089ce6f.PNG)
+![camera_calib_codesnapshot_4](https://user-images.githubusercontent.com/25223180/52207634-054a1700-28a4-11e9-9739-9cbd22d7df15.PNG)
 
 
 The code for this step is contained in the first code cell of the IPython notebook located in "./examples/example.ipynb" (or in lines # through # of the file called `some_file.py`).  
