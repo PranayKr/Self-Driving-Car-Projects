@@ -17,7 +17,7 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
-### Camera Calibration 
+### Camera Calibration and Distortion Correction
 ### Code Snapshots
 ![camera_calib_codesnapshot_](https://user-images.githubusercontent.com/25223180/52207620-fb281880-28a3-11e9-87b1-9dd46d3a887f.PNG)
 ![camera_calib_codesnapshot_2](https://user-images.githubusercontent.com/25223180/52207625-ff543600-28a3-11e9-8e37-85b084195797.PNG)
