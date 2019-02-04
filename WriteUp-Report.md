@@ -113,12 +113,12 @@ Following are the steps to apply perspective tranform on the generated Binary Th
    image. 
    
    This resulted in the following source and destination points:  
-   | Source      | Destination   | 
-   |:-----------:|:-------------:| 
-   | 568,470     | 200,0         | 
-   | 717,470     | 200,680       |
-   | 260,680     | 1000,0        |
-   | 1043,680    | 1000,680      |
+   a) | Source      | Destination   | 
+   b) |:-----------:|:-------------:| 
+   c) | 568,470     | 200,0         | 
+   d) | 717,470     | 200,680       |
+   e) | 260,680     | 1000,0        |
+   f) | 1043,680    | 1000,680      |
    
 3) Now both the source image points and destination image points are passed to a function cv2.getPerspectiveTransform() to get
    Perspective Transform Matrix
