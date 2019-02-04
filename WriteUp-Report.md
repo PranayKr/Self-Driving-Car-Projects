@@ -77,7 +77,7 @@ Magnitude Gradient threshold is calculated in a similar way the only difference 
 calculated by taking the square root of the sum of the squares of gardients/ derivatives along x and y-directions (outputs of Sobel-x
 and Sobel-y operators)
 Direction Gradient Threshold is calculated by taking the inverse tangent of quotient of absolute gradient over y-direction over the 
-absolute gradient over x-direction and applying a mask using the lower threshold value of 0.7 and upper threshold value of 1.3 to get
+absolute gradient over x-direction and applying a mask using the lower threshold value of 0.7 and upper threshold value of 1.4 to get
 the binary output.
 
 Now once the combined gradient threshold is available Color Gradient Threshold output is also calculated by the following steps:
