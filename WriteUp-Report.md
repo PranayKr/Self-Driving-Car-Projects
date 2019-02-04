@@ -89,8 +89,7 @@ Now both the combined gradient threshold output and color threshold outputs are 
 with the Lane Edges pixels isloted in the entire image to maximum possibel extent.
 
 Below are the results achieved by applying the above algorithm to generate Threshold Binary Image on Undistorted Images obtained from previous step.
-
-
+![binary_threshimg_2](https://user-images.githubusercontent.com/25223180/52237577-ee311680-28ef-11e9-9040-f52fe21ef424.PNG)
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
