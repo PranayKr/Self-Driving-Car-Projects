@@ -27,12 +27,23 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 The code for this step is contained in the above displayed Code Cells of the IPython notebook (Advanced_Lane_Detection.ipynb) located 
 in CarND-Advanced-Lane-Lines/ folder
 ## Explanation of the logic for this step 
+Camera Calibration is required as the camera distorts the shape and size of 3-D objects as they are captured by camera lens in a 2-D 
+Frame . In order to implement this the 3-D realtime Coordinates of a known object need to be mapped to the 2-D Coordinates of the Camera
+Frame. 2 separate lists 1) "imgpoints" for containing the  2-D coordinates of the frame and 2)"Objpoints" for containing the 3-D 
+coordinates of the corrseponding realtime objects are created for this. The Object Points would remain constant for every calibration
+image with z-value being 0 . The variable "objp" is a replicated array of coordiantes appended every time to the "Objpoints" list.
+For finding the 2-D Coordiantes of the 2-D image of the 3-D object first of all the image is converted to grayscale and is passed as
+argument to the function cv2.findChessboardCorners() along with the values nx:number of inside corners along x-axis and ny:number of inside corners along y-axis . If this returns some corners detected in the image then these corners are appended to the "imgpoints" list
+Now that the 2-D corners corresponding to the 3-D corner values are available then these corners are drawn on the image using the 
+function cv2.drawChessboardCorners(). Hence now that both the imgpoints and objpoints lists are available corresponding to the 2-D
+corners detected and the static 3-D corner values these are passed as argumets to the function cv2.calibrateCamera() alongwith the shape
+of the grayscale image. This fucntion returns the following values : Distortion Coefficient / Camera Matrix (required to transform 3-D
+object points to 2-D Image points ) / Rotation and Translation Vectors (telling about the position of the camera in teh world)
+Now in the code the function cv2.undistort() takes in the distorted image / camera matrix and distortion coefficient as arguments and
+retrurns the undistorted image also termed as destination image 
 
-I start by preparing "object points", which will be the (x, y, z) coordinates of the chessboard corners in the world. Here I am assuming the chessboard is fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `objp` is just a replicated array of coordinates, and `objpoints` will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `imgpoints` will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  
+Below are the results achieved by applying the above algorithm to undistort images 
 
-I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
-
-![alt text][image1]
 
 ### Pipeline (single images)
 
