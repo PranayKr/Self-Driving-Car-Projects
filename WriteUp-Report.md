@@ -38,19 +38,13 @@ Now that the 2-D corners corresponding to the 3-D corner values are available th
 function cv2.drawChessboardCorners(). Hence now that both the imgpoints and objpoints lists are available corresponding to the 2-D
 corners detected and the static 3-D corner values these are passed as argumets to the function cv2.calibrateCamera() alongwith the shape
 of the grayscale image. This fucntion returns the following values : Distortion Coefficient / Camera Matrix (required to transform 3-D
-object points to 2-D Image points ) / Rotation and Translation Vectors (telling about the position of the camera in teh world)
+object points to 2-D Image points ) / Rotation and Translation Vectors (telling about the position of the camera in the world)
 Now in the code the function cv2.undistort() takes in the distorted image / camera matrix and distortion coefficient as arguments and
-retrurns the undistorted image also termed as destination image 
+returns the undistorted image also termed as destination image 
 
 Below are the results achieved by applying the above algorithm to undistort images 
 
 
-### Pipeline (single images)
-
-#### 1. Provide an example of a distortion-corrected image.
-
-To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
-![alt text][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
