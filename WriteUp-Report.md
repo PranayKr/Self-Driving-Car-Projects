@@ -133,9 +133,15 @@ As is evident from the above results that the lane lines appear parallel in the 
 transform logic is working as expected.
 ### 4. Lane-Line pixels identification in the Warped threshold binary image using Histogram Peak Calculation and Slding Windows Approach followed by fitting the pixels with a 2nd-order polynomial
 ### Code Snapshots
-
-The code for this step is contained in the above displayed Code Cells (Cell numbers 15,16,17) of the Jupyter Notebook
-(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 277-323 of the python file
+![code_snippet_1](https://user-images.githubusercontent.com/25223180/52242445-b8465f00-28fc-11e9-8dd7-54e11a36c837.PNG)
+![code_snippet_2](https://user-images.githubusercontent.com/25223180/52242451-bbd9e600-28fc-11e9-8080-a84e36adb902.PNG)
+![code_snippet_3](https://user-images.githubusercontent.com/25223180/52242455-c0060380-28fc-11e9-832f-c077eff47ea3.PNG)
+![code_snippet_4](https://user-images.githubusercontent.com/25223180/52242459-c3998a80-28fc-11e9-9f8d-2d4c00c67a2a.PNG)
+![code_snippet_5](https://user-images.githubusercontent.com/25223180/52242466-c72d1180-28fc-11e9-9083-5c8997a80ba9.PNG)
+![code_snippet_6](https://user-images.githubusercontent.com/25223180/52242472-cb592f00-28fc-11e9-8f9b-69304a043d00.PNG)
+![code_snippet_7](https://user-images.githubusercontent.com/25223180/52242480-ce541f80-28fc-11e9-9734-51deac774920.PNG)
+The code for this step is contained in the above displayed Code Cells (Cell numbers 18,19,20) of the Jupyter Notebook
+(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 327-499 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
 ## Explanation of the logic for this step
 
