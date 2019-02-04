@@ -93,7 +93,9 @@ Below are the results achieved by applying the above algorithm to generate Thres
 
 ### 3. Perspective Transform Step
 ### Code Snapshots
-
+![code_snippet_1](https://user-images.githubusercontent.com/25223180/52238376-d3f83800-28f1-11e9-8b5b-0143b015e43a.PNG)
+![code_snippet_2](https://user-images.githubusercontent.com/25223180/52238382-d8245580-28f1-11e9-8de0-bc57572100e1.PNG)
+![code_snippet_3](https://user-images.githubusercontent.com/25223180/52238392-db1f4600-28f1-11e9-9605-379066af9466.PNG)
 The code for this step is contained in the above displayed Code Cells (Cell numbers 15,16,17) of the Jupyter Notebook
 (Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 277-323 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
