@@ -110,15 +110,13 @@ difference is that while in distortion correction 3-D object points are mapped 2
 Following are the steps to apply perspective tranform on the generated Binary Threshold Image from previous step:
 1) 4 source image points were taken on the threshold binary image which define a rectangular plane 
 2) 4 destination image points were selected which define a rectangular plane to map the source image points on the warped transformed
-   image. 
-   
-   This resulted in the following source and destination points:  
-   a) | Source      | Destination   | 
-   b) |:-----------:|:-------------:| 
-   c) | 568,470     | 200,0         | 
-   d) | 717,470     | 200,680       |
-   e) | 260,680     | 1000,0        |
-   f) | 1043,680    | 1000,680      |
+   image. This resulted in the following source and destination points:  
+   ## | Source      | Destination   | 
+   ## |:-----------:|:-------------:| 
+   ## | 568,470     | 200,0         | 
+   ## | 717,470     | 200,680       |
+   ## | 260,680     | 1000,0        |
+   ## | 1043,680    | 1000,680      |
    
 3) Now both the source image points and destination image points are passed to a function cv2.getPerspectiveTransform() to get
    Perspective Transform Matrix
