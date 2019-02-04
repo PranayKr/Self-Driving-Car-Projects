@@ -43,8 +43,8 @@ Now in the code the function cv2.undistort() takes in the distorted image / came
 returns the undistorted image also termed as destination image 
 
 Below are the results achieved by applying the above algorithm to undistort images 
-
-
+![undistorted_checkboard14](https://user-images.githubusercontent.com/25223180/52209292-7cce7500-28a9-11e9-976f-eec5bbf272f2.PNG)
+![undistorted_testimg4](https://user-images.githubusercontent.com/25223180/52209300-835cec80-28a9-11e9-9842-48c0fe64ddc3.PNG)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
