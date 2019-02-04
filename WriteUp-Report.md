@@ -126,15 +126,10 @@ Following are the steps to apply perspective tranform on the generated Binary Th
    a flag cv2.INTER_NEAREST to interpolate the missing points / coordinates while generating the warped image are passed as arguments
 
 Below are the results achieved by applying the above algorithm to generate Perspective Transformed Image on generated Binary Threshold 
-Images obtained from previous step.
+Images obtained from previous step
 
-The code for my perspective transform includes a function called `warper()`, which appears in lines 1 through 8 in the file `example.py` (output_images/examples/example.py) (or, for example, in the 3rd code cell of the IPython notebook).  The `warper()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  
-
-
-I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
-
-![alt text][image4]
-
+As is evident from the above result that the lane lines appear parallel in the warped image thus validating that the prespective
+transform logic is working as expected.
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
 Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
