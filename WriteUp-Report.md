@@ -25,8 +25,10 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 ![camera_calib_codesnapshot_4](https://user-images.githubusercontent.com/25223180/52207634-054a1700-28a4-11e9-9739-9cbd22d7df15.PNG)
 
 The code for this step is contained in the above displayed Code Cells (Cell numbers 2,3,4,5,6,7,8,9,10,11) of the Jupyter Notebook
-(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 38-154 of the python file
+(Advanced_Lane_Detection-Updated.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 38-154 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+
+NOTE: Advanced_Lane_Detection.ipynb was too large (>25 mb) to be uploaded on github
 
 ## Explanation of the logic for this step 
 Camera Calibration is required as the camera distorts the shape and size of 3-D objects as they are captured by camera lens in a 2-D 
@@ -57,8 +59,11 @@ Below are the results achieved by applying the above algorithm to undistort imag
 ![code_snippet_5](https://user-images.githubusercontent.com/25223180/52234576-02711580-28e8-11e9-8bfd-ec7a534f75c8.PNG)
 
 The code for this step is contained in the above displayed Code Cells (Cell numbers 12,13,14) of the Jupyter Notebook
-(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 158-272 of the python file
-Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+(Advanced_Lane_Detection-Updated.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 158-272 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder
+
+NOTE: Advanced_Lane_Detection.ipynb was too large (>25 mb) to be uploaded on github
+
 ## Explanation of the logic for this step
 Gradient Threshold Calculations are required to isolate only the pixels corresponding to Lane Edges in a given undistorted image instead
 of directly using Canny Edge Detection method which outputs edges of surrounding background and other objects such as vehicles/ trees/
@@ -97,8 +102,11 @@ Below are the results achieved by applying the above algorithm to generate Thres
 ![code_snippet_2](https://user-images.githubusercontent.com/25223180/52238382-d8245580-28f1-11e9-8de0-bc57572100e1.PNG)
 ![code_snippet_3](https://user-images.githubusercontent.com/25223180/52238392-db1f4600-28f1-11e9-9605-379066af9466.PNG)
 The code for this step is contained in the above displayed Code Cells (Cell numbers 15,16,17) of the Jupyter Notebook
-(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 277-323 of the python file
-Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+(Advanced_Lane_Detection-Updated.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 277-323 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder
+
+NOTE: Advanced_Lane_Detection.ipynb was too large (>25 mb) to be uploaded on github
+
 ## Explanation of the logic for this step
 A perspective transform maps the points in a given image to different, desired, image points with a new perspective. The perspective
 transform relevant for this implementation is a bird’s-eye view transform that let’s us view a lane from above which would be used for
@@ -142,8 +150,11 @@ transform logic is working as expected.
 ![code_snippet_7](https://user-images.githubusercontent.com/25223180/52242480-ce541f80-28fc-11e9-9734-51deac774920.PNG)
 
 The code for this step is contained in the above displayed Code Cells (Cell numbers 18,19,20) of the Jupyter Notebook
-(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 327-499 of the python file
-Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+(Advanced_Lane_Detection-Updated.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 327-499 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder
+
+NOTE: Advanced_Lane_Detection.ipynb was too large (>25 mb) to be uploaded on github
+
 ## Explanation of the logic for this step
 In order to determine which pixels in the warped threshold binary image belong to the left lane and which pixels belong to the right
 lane a histogram along all the columns of  bottom half of the image is calculated. With this calculation all the pixel values along each
@@ -171,8 +182,11 @@ detected, and the yellow lines are from the current image.
 ![code_snippet_2](https://user-images.githubusercontent.com/25223180/52251682-54d02780-2924-11e9-9794-860adb1b1392.PNG)
 
 The code for this step is contained in the above displayed Code Cells (Cell number 21) of the Jupyter Notebook
-(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 504-536 of the python file
+(Advanced_Lane_Detection-Updated.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 504-536 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+
+NOTE: Advanced_Lane_Detection.ipynb was too large (>25 mb) to be uploaded on github
+
 ## Explanation of the logic for this step
 The calculation of radius of curvature is done as explained in this tutorial 
 (ref link: https://www.intmath.com/applications-differentiation/8-radius-curvature.php)
@@ -208,8 +222,10 @@ position from the pixel position.
 ![code_snippet_2](https://user-images.githubusercontent.com/25223180/52252781-6288ab80-292a-11e9-947e-13fc87fbd620.PNG)
 
 The code for this step is contained in the above displayed Code Cells (Cell number 22,23,24,25,26,27,28)of the Jupyter Notebook
-(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 539-700 of the python file
-Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+(Advanced_Lane_Detection-Updated.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 539-700 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder
+
+NOTE: Advanced_Lane_Detection.ipynb was too large (>25 mb) to be uploaded on github
 
 Below are the results achieved by plotting back down onto the road such that the lane area is identified clearly.
 ![finalimageresult1](https://user-images.githubusercontent.com/25223180/52252841-9e237580-292a-11e9-95e9-5ec689585d36.PNG)
