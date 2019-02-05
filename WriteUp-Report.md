@@ -197,9 +197,10 @@ The position of the vehicle with respect to the center of the lane is calculated
 ![vehicle_center_eqn](https://user-images.githubusercontent.com/25223180/52252097-74684f80-2926-11e9-9263-33df9acb2edc.PNG)
 ![lane_center_eqn](https://user-images.githubusercontent.com/25223180/52252103-7f22e480-2926-11e9-9854-10f08e9de9eb.PNG)
 
-left_lane_bottome and right_lane_bottom are the x-intercepts of the left and right fits, respectively. This requires evaluating the fit at the maximum y value (the bottom of the image) because the minimum y value is actually at the top (otherwise, the
-constant coefficient of each fit would have sufficed). The car position is the difference between these intercept points and the image
-midpoint i.e. 640 in this case (assuming that the camera is mounted at the center of the vehicle).
+left_lane_bottom and right_lane_bottom are the x-intercepts of the left and right fits, respectively. The deviation of the
+vehicle from the center is calculated by taking the difference of lane center (i.e. midpoint of the sum of intercepts of left
+fit and right fit) and center of image i..e. 640 in this case multimplied by the scaling factor "xm_per_pix" to get the real-time
+position from the pixel position.
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
