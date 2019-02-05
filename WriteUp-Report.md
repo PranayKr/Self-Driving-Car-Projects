@@ -150,7 +150,7 @@ lane a histogram along all the columns of  bottom half of the image is calculate
 column in the image are summed up. Since the pixel values are either 0 or 1 the two most prominent peaks in this histogram act be good
 indicators of the x-position of the bottom of the lane lines. Taking that as a starting point for searching for the pixels belonging to
 the right and left lanes a sliding window i.e. a fixed-size rectangle , placed around the line centers is used to find and follow the
-lines up to the top of the frame.
+lines up to the top of the frame. Once the pixels belonging to each lane line are identified the built-in function np.polyfit() method fits a second order polynomial (f(y) = Ay² + By + C) to each set of pixels.
 
 Below are the results achieved by applying the above algorithm to show the Lane Lines Identified on the Warped Binary Threshold 
 Images obtained from previous step
