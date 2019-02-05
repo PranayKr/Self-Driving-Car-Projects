@@ -224,7 +224,7 @@ Animated GIF image showing the results obtained on a section of the entire video
 
 ![advanced-lane-detection-result](https://user-images.githubusercontent.com/25223180/52253015-6ec13880-292b-11e9-9e5b-231bae1a8f5a.gif)
 
-Here's a [link to the entire video result](./project_video.mp4)
+Here's a link to the entire video result of advanced lane detection algorithm [link to the entire video result](https://youtu.be/WUKgYlx1qU0)
 
 ### Discussion
 
