@@ -228,6 +228,26 @@ Here's a [link to the entire video result of Advanced Lane Detection Algorithm I
 
 ### Discussion
 
-#### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+### Problems / issues faced in implementation of this project. Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+### PIPELINE FAILURE 
+1) The Advanced Lane Detection Algorithm Implementation fails to detect lanes properly in the challenge video (challenge_video.mp4)
+   and harder challenge video (harder_challenge_video.mp4)
+   
+   One of the reasons for failure was the low lighting conditions present in the harder challenge video (harder_challenge_video.mp4)
+   and sharper turns appearing consistently over the meandering roads in the video
+   
+2) Th execution time of implementation of the various image processing algorithm was very high due to slower processing power of 
+   my CPU-Laptop. The excution time should reduce significantly if the code is executed on GPU-enabled systems with considerably 
+   higher RAM 
+   
+### POSSIBLE IMPROVEMENTS 
+1) Better Hyperparameter tuning to get more appropriate graident thresholds for lane pixels detection
+2) More fineturning of parameters to get better Radius of Curvature Estimates 
+3) Implementation of advanced lane detection using self-learning Computer Vision Techniques such as training Deep Learning Neural Net
+   Models (Convolutional Neural Nets) instead of using the conventional Image Processing Algorithms 
+
+### REFERENCES
+EXPLANATION OF THE CONCEPT OF RADIUS OF CURVATURE AND ITS IMPLEMENTATION 
+(https://www.intmath.com/applications-differentiation/8-radius-curvature.php)
+
