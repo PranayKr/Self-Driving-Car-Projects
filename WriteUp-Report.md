@@ -17,6 +17,10 @@ The Software Pipeline built for Advanced Lane Detection consists of the followin
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
+### NOTE : All the Code snapshots are from the implementation done the jupyter notebook file Advanced_Lane_Detection.ipynb file which could not be uploaded in github owing to large size (> 25 mb) as it contained the results for all the test images at various stages of implementation. Instead the jupyter notebook file Advanced_Lane_Detection-Updated.ipynb was uploaed in github which contains the rsults generated on a single test image during various stages of implementation of the below described pipeline. Owing to lack of time I am unable to replace the provided code snapshots from the file Advanced_Lane_Detection.ipynb with the code snapshots from the actually uploaded implementation file Advanced_Lane_Detection-Updated.ipynb. Logically the code in both the files are the same except for one extra condition logic to visualize results only for a single test image in the file Advanced_Lane_Detection-Updated.ipynb instead of iterating over all the test images to display reulst / plot graphs for all provided test images as was doen in the case of the code in the larger not-uploaded file Advanced_Lane_Detection.ipynb. 
+
+### NOTE : Please consider the above discripancy. Eventually I will upload the proper code snapshots reflecting the implemenation in actually uploaded jupyter notebook file. Besides the source code in the python file (.py) implementation of both versions (both.ipynb files) have been uploaded in this repository for reference.          
+
 ### Camera Calibration and Distortion Correction
 ### Code Snapshots
 ![camera_calib_codesnapshot_](https://user-images.githubusercontent.com/25223180/52207620-fb281880-28a3-11e9-87b1-9dd46d3a887f.PNG)
