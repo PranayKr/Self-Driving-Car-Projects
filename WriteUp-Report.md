@@ -202,7 +202,7 @@ vehicle from the center is calculated by taking the difference of lane center (i
 fit and right fit) and center of image i..e. 640 in this case multimplied by the scaling factor "xm_per_pix" to get the real-time
 position from the pixel position.
 
-#### 6. Results plotted back down onto the road such that the lane area is identified clearly.
+### 6. Results plotted back down onto the road such that the lane area is identified clearly.
 ### Code Snapshots
 
 The code for this step is contained in the above displayed Code Cells (Cell number 22,23,24,25,26,27,28)of the Jupyter Notebook
