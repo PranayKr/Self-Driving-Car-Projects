@@ -243,7 +243,7 @@ Here's a [link to the entire video result of Advanced Lane Detection Algorithm I
    higher RAM 
    
 ### POSSIBLE IMPROVEMENTS 
-1) Better Hyperparameter tuning to get more appropriate graident thresholds for lane pixels detection
+1) Better Hyperparameter tuning to get more appropriate gradient thresholds for lane pixels detection
 2) More fineturning of parameters to get better Radius of Curvature Estimates 
 3) Implementation of advanced lane detection using self-learning Computer Vision Techniques such as training Deep Learning Neural Net
    Models (Convolutional Neural Nets) instead of using the conventional Image Processing Algorithms 
