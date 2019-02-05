@@ -183,6 +183,7 @@ A brief explanation of this concept can be understood by referring to the below 
 
 Now taking into consideration the above provided expalnation the radius of curvature is calculated by the following lines of code
 in the implementation
+
 ![radiiofcurve_eqns](https://user-images.githubusercontent.com/25223180/52252092-6fa39b80-2926-11e9-8ac7-067d5854b283.PNG)
 
 In this example, left_fit_cr[0] and right_fit_cr[0] are the first coefficients (the y-squared coefficient) of the second order
@@ -192,14 +193,13 @@ the factor used for converting from pixels to meters. This conversion was also u
 meters.
 
 The position of the vehicle with respect to the center of the lane is calculated with the following lines of code:
+
 ![vehicle_center_eqn](https://user-images.githubusercontent.com/25223180/52252097-74684f80-2926-11e9-9263-33df9acb2edc.PNG)
-
-r_fit_x_int and l_fit_x_int are the x-intercepts of the right and left fits, respectively. This requires evaluating the fit at the
-maximum y value (719, in this case - the bottom of the image) because the minimum y value is actually at the top (otherwise, the
-constant coefficient of each fit would have sufficed). The car position is the difference between these intercept points and the image
-midpoint (assuming that the camera is mounted at the center of the vehicle).
-
 ![lane_center_eqn](https://user-images.githubusercontent.com/25223180/52252103-7f22e480-2926-11e9-9854-10f08e9de9eb.PNG)
+
+left_lane_bottome and right_lane_bottom are the x-intercepts of the left and right fits, respectively. This requires evaluating the fit at the maximum y value (the bottom of the image) because the minimum y value is actually at the top (otherwise, the
+constant coefficient of each fit would have sufficed). The car position is the difference between these intercept points and the image
+midpoint i.e. 640 in this case (assuming that the camera is mounted at the center of the vehicle).
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
