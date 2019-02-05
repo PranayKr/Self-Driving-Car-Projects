@@ -53,8 +53,10 @@ coding an Image Analysis Pipeline using multiple image processing concepts and a
           
   e) Navigate to the CarND-Advanced-Lane-Lines/ folder 
   
-     Before running code in the notebook (Advanced_Lane_Detection.ipynb), change the kernel to match the sdcnd environment by using the 
-     drop-down Kernel menu.
+     Before running code in the notebook (Advanced_Lane_Detection-Updated.ipynb), change the kernel to match the sdcnd environment by
+     using the  drop-down Kernel menu.
+    
+     NOTE: Advanced_Lane_Detection.ipynb WAS too large (>25 mb) to be uploaded on github
      
      
 # Details of running the Code Implementation :
@@ -72,7 +74,8 @@ coding an Image Analysis Pipeline using multiple image processing concepts and a
   
   ### Lane Lines Detection Algorithm Implementation Details (Files Used) :
   
-  ### Open the mentioned Jupyter Notebook file and execute all the cells : Advanced_Lane_Detection.ipynb
+  ### Open the mentioned Jupyter Notebook file and execute all the cells : Advanced_Lane_Detection-Updated.ipynb
+  ### NOTE: Advanced_Lane_Detection.ipynb WAS too large (>25 mb) to be uploaded on github
   
   ### Image Files used for Testing the Algorithm (present in the "test_images" and "camera_cal" folder):
   1) 'calibration*.jpg' (* in range of 1 to 10)
