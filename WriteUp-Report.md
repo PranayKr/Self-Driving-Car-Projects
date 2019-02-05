@@ -212,6 +212,12 @@ The code for this step is contained in the above displayed Code Cells (Cell numb
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
 
 Below are the results achieved by plotting back down onto the road such that the lane area is identified clearly.
+![finalimageresult1](https://user-images.githubusercontent.com/25223180/52252841-9e237580-292a-11e9-95e9-5ec689585d36.PNG)
+![finalimageresult2](https://user-images.githubusercontent.com/25223180/52252848-a5e31a00-292a-11e9-910e-b973fbaf227a.PNG)
+![finalimageresult3](https://user-images.githubusercontent.com/25223180/52252852-aa0f3780-292a-11e9-8f2d-3085cc4a6fff.PNG)
+![finalimageresult4](https://user-images.githubusercontent.com/25223180/52252858-ae3b5500-292a-11e9-9535-d450eea6ea55.PNG)
+![finalimageresult5](https://user-images.githubusercontent.com/25223180/52252862-b1cedc00-292a-11e9-9c14-d2bae86121e1.PNG)
+![finalimageresult6](https://user-images.githubusercontent.com/25223180/52252865-b5faf980-292a-11e9-8ff2-25be7c17680d.PNG)
 
 ### Pipeline (video)
 
