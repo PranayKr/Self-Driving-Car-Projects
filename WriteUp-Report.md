@@ -227,7 +227,7 @@ Animated GIF image showing the results obtained on a section of the entire video
 Here's a [link to the entire video result of Advanced Lane Detection Algorithm Implementation](https://youtu.be/WUKgYlx1qU0)
 
 ### Discussion
-### Problems / issues faced in implementation of this project. 
+### Problems / issues faced in implementation of this Project
 ### PIPELINE FAILURE 
 1) The Advanced Lane Detection Algorithm Implementation fails to detect lanes properly in the challenge video (challenge_video.mp4)
    and harder challenge video (harder_challenge_video.mp4)
@@ -235,6 +235,9 @@ Here's a [link to the entire video result of Advanced Lane Detection Algorithm I
    One of the reasons for failure was the low lighting conditions present in the harder challenge video (harder_challenge_video.mp4)
    and sharper turns appearing consistently over the meandering roads in the video
    
+   The implementation would also probably not work as expected if provided a video of vehicle driving down in snowy/rainy/stormy
+   weather conditions or if the LIVE Feed is from a vehicle driving down a road during night time.
+      
 2) Th execution time of implementation of the various image processing algorithm was very high due to slower processing power of 
    my CPU-Laptop. The excution time should reduce significantly if the code is executed on GPU-enabled systems with considerably 
    higher RAM 
