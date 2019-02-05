@@ -239,8 +239,8 @@ Here's a [link to the entire video result of Advanced Lane Detection Algorithm I
    weather conditions or if the LIVE Feed is from a vehicle driving down a road during night time.
       
 2) The execution time of implementation of the various image processing algorithm was very high due to slower processing power of 
-   my CPU-Laptop. The excution time should reduce significantly if the code is executed on GPU-enabled systems with considerably 
-   higher RAM 
+   my CPU-Laptop. The execution time should reduce significantly if the code is executed on GPU-enabled systems with considerably 
+   higher RAM.
    
 ### POSSIBLE IMPROVEMENTS 
 1) Better Hyperparameter tuning to get more appropriate gradient thresholds for lane pixels detection
