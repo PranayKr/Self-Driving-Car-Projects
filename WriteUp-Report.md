@@ -174,9 +174,10 @@ The code for this step is contained in the above displayed Code Cells (Cell numb
 (Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 504-536 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
 ## Explanation of the logic for this step
+The calculation of radius of curvature is done as explained in this tutorial 
+(ref link: https://www.intmath.com/applications-differentiation/8-radius-curvature.php)
+A brief explanation of this concept can be understood by referring to the below provided image
 
-Below are the results achieved by applying the above algorithm to show the Lane Lines Identified on the Warped Binary Threshold 
-Images obtained from previous step
 
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
