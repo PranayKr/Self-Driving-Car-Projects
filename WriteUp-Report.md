@@ -238,7 +238,7 @@ Here's a [link to the entire video result of Advanced Lane Detection Algorithm I
    The implementation would also probably not work as expected if provided a video of vehicle driving down in snowy/rainy/stormy
    weather conditions or if the LIVE Feed is from a vehicle driving down a road during night time.
       
-2) Th execution time of implementation of the various image processing algorithm was very high due to slower processing power of 
+2) The execution time of implementation of the various image processing algorithm was very high due to slower processing power of 
    my CPU-Laptop. The excution time should reduce significantly if the code is executed on GPU-enabled systems with considerably 
    higher RAM 
    
