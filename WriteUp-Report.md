@@ -185,10 +185,11 @@ Now taking into consideration the above provided expalnation the radius of curva
 in the implementation
 ![radiiofcurve_eqns](https://user-images.githubusercontent.com/25223180/52252092-6fa39b80-2926-11e9-8ac7-067d5854b283.PNG)
 
-In this example, fit[0] is the first coefficient (the y-squared coefficient) of the second order polynomial fit, and fit[1] is the
-second (y) coefficient. y_0 is the y position within the image upon which the curvature calculation is based (the bottom-most y - the
-position of the car in the image - was chosen). y_meters_per_pixel is the factor used for converting from pixels to meters. This
-conversion was also used to generate a new fit with coefficients in terms of meters.
+In this example, left_fit_cr[0] and right_fit_cr[0] are the first coefficients (the y-squared coefficient) of the second order
+polynomial fit, whereas left_fit_cr[1] and right_fit_cr[1] are the second (y) coefficient. y_eval is the y position within the image
+upon which the curvature calculation is based (the bottom-most y - the position of the car in the image - was chosen). y_m_per_pix is
+the factor used for converting from pixels to meters. This conversion was also used to generate a new fit with coefficients in terms of
+meters.
 
 The position of the vehicle with respect to the center of the lane is calculated with the following lines of code:
 ![vehicle_center_eqn](https://user-images.githubusercontent.com/25223180/52252097-74684f80-2926-11e9-9263-33df9acb2edc.PNG)
