@@ -227,9 +227,7 @@ Animated GIF image showing the results obtained on a section of the entire video
 Here's a [link to the entire video result of Advanced Lane Detection Algorithm Implementation](https://youtu.be/WUKgYlx1qU0)
 
 ### Discussion
-
-### Problems / issues faced in implementation of this project. Where will your pipeline likely fail?  What could you do to make it more robust?
-
+### Problems / issues faced in implementation of this project. 
 ### PIPELINE FAILURE 
 1) The Advanced Lane Detection Algorithm Implementation fails to detect lanes properly in the challenge video (challenge_video.mp4)
    and harder challenge video (harder_challenge_video.mp4)
