@@ -177,6 +177,7 @@ Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder
 The calculation of radius of curvature is done as explained in this tutorial 
 (ref link: https://www.intmath.com/applications-differentiation/8-radius-curvature.php)
 A brief explanation of this concept can be understood by referring to the below provided image
+![radius of curavture equations](https://user-images.githubusercontent.com/25223180/52251862-51896b80-2925-11e9-9223-f8980efbc671.PNG)
 
 
 
