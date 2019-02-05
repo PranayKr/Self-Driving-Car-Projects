@@ -169,6 +169,7 @@ detected, and the yellow lines are from the current image.
 ### Code Snapshots
 ![code_snippet_1](https://user-images.githubusercontent.com/25223180/52251677-513ca080-2924-11e9-8a01-1e3071dd4e70.PNG)
 ![code_snippet_2](https://user-images.githubusercontent.com/25223180/52251682-54d02780-2924-11e9-9794-860adb1b1392.PNG)
+
 The code for this step is contained in the above displayed Code Cells (Cell number 21) of the Jupyter Notebook
 (Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 504-536 of the python file
 Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
