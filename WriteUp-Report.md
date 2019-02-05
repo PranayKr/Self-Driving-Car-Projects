@@ -152,8 +152,12 @@ indicators of the x-position of the bottom of the lane lines. Taking that as a s
 the right and left lanes a sliding window i.e. a fixed-size rectangle , placed around the line centers is used to find and follow the
 lines up to the top of the frame. Once the pixels belonging to each lane line are identified the built-in function np.polyfit() method fits a second order polynomial (f(y) = Ay² + By + C) to each set of pixels.
 
+The Detect_lines_beyond() function performs the same task but optimizes the searching of lane-line pixels by using a previous
+fit (from a previous image frame of the LIVE video feed) and only searching for lane pixels within a certain range of that fit.
+
 Below are the results achieved by applying the above algorithm to show the Lane Lines Identified on the Warped Binary Threshold 
-Images obtained from previous step
+Images obtained from previous step. The green shaded area is the range from the previous fitted polynomial over the lane pixels
+detected, and the yellow lines are from the current image.
 
 ![lanes_detected_1](https://user-images.githubusercontent.com/25223180/52251012-bc847380-2920-11e9-9b67-78499c373af4.PNG)
 ![lanes_detected_2](https://user-images.githubusercontent.com/25223180/52251015-bf7f6400-2920-11e9-83ad-6df4f43b344a.PNG)
@@ -162,7 +166,15 @@ Images obtained from previous step
 ![lanes_detected_5](https://user-images.githubusercontent.com/25223180/52251024-c908cc00-2920-11e9-85a3-676630817577.PNG)
 ![lanes_detected_6](https://user-images.githubusercontent.com/25223180/52251027-cc9c5300-2920-11e9-892f-509eb5e52824.PNG)
 ### 5. Calculation of the Radius of Curvature of the Left and Right Lanes and the position of the vehicle with respect to center.
+### Code Snapshots
 
+The code for this step is contained in the above displayed Code Cells (Cell number 21) of the Jupyter Notebook
+(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 504-536 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
+## Explanation of the logic for this step
+
+Below are the results achieved by applying the above algorithm to show the Lane Lines Identified on the Warped Binary Threshold 
+Images obtained from previous step
 
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
