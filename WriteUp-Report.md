@@ -154,6 +154,7 @@ lines up to the top of the frame.
 
 Below are the results achieved by applying the above algorithm to show the Lane Lines Identified on the Warped Binary Threshold 
 Images obtained from previous step
+
 ![lanes_detected_1](https://user-images.githubusercontent.com/25223180/52251012-bc847380-2920-11e9-9b67-78499c373af4.PNG)
 ![lanes_detected_2](https://user-images.githubusercontent.com/25223180/52251015-bf7f6400-2920-11e9-83ad-6df4f43b344a.PNG)
 ![lanes_detected_3](https://user-images.githubusercontent.com/25223180/52251017-c27a5480-2920-11e9-93c5-2852ef91daab.PNG)
