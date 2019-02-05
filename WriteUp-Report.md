@@ -161,11 +161,9 @@ Images obtained from previous step
 ![lanes_detected_4](https://user-images.githubusercontent.com/25223180/52251019-c4dcae80-2920-11e9-8d9a-f5c69917eadd.PNG)
 ![lanes_detected_5](https://user-images.githubusercontent.com/25223180/52251024-c908cc00-2920-11e9-85a3-676630817577.PNG)
 ![lanes_detected_6](https://user-images.githubusercontent.com/25223180/52251027-cc9c5300-2920-11e9-892f-509eb5e52824.PNG)
+### 5. Calculation of the Radius of Curvature of the Left and Right Lanes and the position of the vehicle with respect to center.
 
 
-#### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
-
-I did this in lines # through # in my code in `my_other_file.py`
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
