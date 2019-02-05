@@ -131,7 +131,7 @@ Images obtained from previous step
 ![perspectivetrnsfrm_img3](https://user-images.githubusercontent.com/25223180/52241242-225d0500-28f9-11e9-86f2-1233a4a11306.PNG)
 As is evident from the above results that the lane lines appear parallel in the warped images thus validating that the perspective
 transform logic is working as expected.
-### 4. Lane-Line pixels identification in the Warped threshold binary image using Histogram Peak Calculation and Slding Windows Approach followed by fitting the pixels with a 2nd-order polynomial
+### 4. Lane-Line pixels identification in the Warped threshold binary image using Histogram Peak Calculation and Sliding Windows Approach followed by fitting the pixels with a 2nd-order polynomial
 ### Code Snapshots
 ![code_snippet_1](https://user-images.githubusercontent.com/25223180/52242445-b8465f00-28fc-11e9-8dd7-54e11a36c837.PNG)
 ![code_snippet_2](https://user-images.githubusercontent.com/25223180/52242451-bbd9e600-28fc-11e9-8080-a84e36adb902.PNG)
