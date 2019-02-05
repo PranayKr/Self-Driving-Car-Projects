@@ -204,6 +204,8 @@ position from the pixel position.
 
 ### 6. Results plotted back down onto the road such that the lane area is identified clearly.
 ### Code Snapshots
+![code_snippet_1](https://user-images.githubusercontent.com/25223180/52252779-5f8dbb00-292a-11e9-9f6d-d3001c75485e.PNG)
+![code_snippet_2](https://user-images.githubusercontent.com/25223180/52252781-6288ab80-292a-11e9-947e-13fc87fbd620.PNG)
 
 The code for this step is contained in the above displayed Code Cells (Cell number 22,23,24,25,26,27,28)of the Jupyter Notebook
 (Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 539-700 of the python file
