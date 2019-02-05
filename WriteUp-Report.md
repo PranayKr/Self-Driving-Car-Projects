@@ -202,13 +202,14 @@ vehicle from the center is calculated by taking the difference of lane center (i
 fit and right fit) and center of image i..e. 640 in this case multimplied by the scaling factor "xm_per_pix" to get the real-time
 position from the pixel position.
 
-#### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
+#### 6. Results plotted back down onto the road such that the lane area is identified clearly.
+### Code Snapshots
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+The code for this step is contained in the above displayed Code Cells (Cell number 22,23,24,25,26,27,28)of the Jupyter Notebook
+(Advanced_Lane_Detection.ipynb) located in CarND-Advanced-Lane-Lines/ folder and lines 539-700 of the python file
+Advanced_Lane_Detection.py) located in CarND-Advanced-Lane-Lines/ folder 
 
-![alt text][image6]
-
----
+Below are the results achieved by plotting back down onto the road such that the lane area is identified clearly.
 
 ### Pipeline (video)
 
