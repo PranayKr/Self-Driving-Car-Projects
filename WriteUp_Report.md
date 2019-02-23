@@ -155,8 +155,9 @@ The model classifies the second traffic sign with around 60 % confidence
 ![image3_pred](https://user-images.githubusercontent.com/25223180/53285721-e398cd00-3789-11e9-9573-951f4050d9e2.PNG)
 
 The model misclassifies this Traffic Sign completely though the lastmost softmax probability in this case is the correct one but does 
-not make a strong case for this model as the confidence level is in fractions
-(Further training should improve the performance).
+not make a strong case for this model as the confidence level is in fractions. This indicates that the model has a low recall for 
+70 km/hr speed limit traffic sign
+(Further training and finetuning the model as well as data augmentation should improve the performance).
 
 ![image4](https://user-images.githubusercontent.com/25223180/53285722-e85d8100-3789-11e9-8757-b46a5ce8636a.PNG)
 ![image4_pred](https://user-images.githubusercontent.com/25223180/53285725-eeebf880-3789-11e9-93bd-8cde3506a018.PNG)
