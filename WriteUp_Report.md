@@ -68,8 +68,8 @@ and a robust Image Classifier model should be able to correctly predict the traf
 3) LEARNING RATE = 1.0e-4
 4) DROPOUT PROBABILITY = 0.5
 5) OPTIMIZER = ADAM OPTIMIZER 
-6) LOSS FUNCTION = CROSS ENTROPY LOSS WITH SOFTMAX ACTIVATION FUNCTION used for the last FULLY CONNECTED LAYER
-7) ACTIVATION FUNCTIONS = RELU ACTIVATION FUNCTIONS for all the NEURAL NET LAYERS except for the last FULLY CONNECTED LAYER
+6) LOSS FUNCTION = CROSS-ENTROPY LOSS WITH SOFTMAX Activation Function used for the last FULLY CONNECTED LAYER
+7) ACTIVATION FUNCTIONS = RELU Activation Functions for all the NEURAL-NET LAYERS except for the last FULLY CONNECTED LAYER
 
 ### SOLUTION APPROACH
 ### The first model architecture I had used :
