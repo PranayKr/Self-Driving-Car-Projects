@@ -179,6 +179,6 @@ performance of the model
 
 ### POSSIBLE IMPROVEMENTS (FUTURE WORK)
 ### 1) Training the model for more number of Epochs more getting a more accurate well-learned model
-### 2) Visualizing the Neural Network : Discussion and anaylysis the visual output of trained network's feature maps. 
+### 2) Visualizing the Neural Network : Discussion and analysis the visual output of trained network's feature maps. 
 
 
