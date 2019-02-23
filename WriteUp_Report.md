@@ -130,7 +130,7 @@ Here are the results of the prediction:
 | No passing	      		        | End of no passing   (Not Exactly)                |
 | No passing by vehicles over 3.5 metric tons			| End of no passing by vehicles over 3.5 metric tons  (Not Exactly)    							|
 
-The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. 
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 60%. 
 
 The last 2 misclassifications are very close as the model was correctly able to infer that the images are related to No Passing 
 and No Passing for heavier vehicles
