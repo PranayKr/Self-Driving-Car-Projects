@@ -137,19 +137,15 @@ and No Passing for heavier vehicles
 
 #### The top 5 softmax probabilities for each image along with the sign type of each probability. 
 ![image1](https://user-images.githubusercontent.com/25223180/53285705-bba96980-3789-11e9-8add-7f1b2e19d1ed.PNG)
-Softmax Probablities
 ![image1_pred](https://user-images.githubusercontent.com/25223180/53285709-c237e100-3789-11e9-9aca-51687340a055.PNG)
 ![image2](https://user-images.githubusercontent.com/25223180/53285714-cf54d000-3789-11e9-94c2-f2f35d3b5c87.PNG)
-Softmax Probablities
 ![image2_pred](https://user-images.githubusercontent.com/25223180/53285718-d976ce80-3789-11e9-8978-d0fd1e967a49.PNG)
 ![image3](https://user-images.githubusercontent.com/25223180/53285719-ded41900-3789-11e9-87a5-0cc7455b0a87.PNG)
-Softmax Probablities
 ![image3_pred](https://user-images.githubusercontent.com/25223180/53285721-e398cd00-3789-11e9-9573-951f4050d9e2.PNG)
 ![image4](https://user-images.githubusercontent.com/25223180/53285722-e85d8100-3789-11e9-8757-b46a5ce8636a.PNG)
-Softmax Probablities
 ![image4_pred](https://user-images.githubusercontent.com/25223180/53285725-eeebf880-3789-11e9-93bd-8cde3506a018.PNG)
 ![image5](https://user-images.githubusercontent.com/25223180/53285728-f4e1d980-3789-11e9-8702-46a54c9debb9.PNG)
-Softmax Probablities
+ Softmax Probablities
 ![image5_pred](https://user-images.githubusercontent.com/25223180/53285730-f8756080-3789-11e9-9648-05ea638278cd.PNG)
 
 ### POSSIBLE IMPROVEMENTS
