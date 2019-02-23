@@ -109,8 +109,7 @@ Finally I achieved the following results :
 
 ### Prediction Results on Random New Images
 ### Random Images Used
-
-
+![random_images](https://user-images.githubusercontent.com/25223180/53285415-2fe20e00-3786-11e9-8840-960226f1b38c.PNG)
 The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
