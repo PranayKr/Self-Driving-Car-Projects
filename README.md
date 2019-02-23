@@ -67,6 +67,11 @@ For this project the task is to build a Convolutional Neural-Net Model which can
   ### Traffic Sign Classification Algorithm Implementation Details (Files Used) :
   
   ### Open the mentioned Jupyter Notebook file and execute all the cells : Traffic_Sign_Classifier-Implementation.ipynb
+  
+  ### Training/ Validation/ Test Data Pickled files provided in the "traffic-signs-data" folder:
+  1) test.p
+  2) train.p
+  3) valid.p
  
   ### Image Files used for Testing the Algorithm (present in the "trafficsigns_german\RandomImages" folder):
   1) 'traffic_sign_1.png' 
@@ -75,3 +80,12 @@ For this project the task is to build a Convolutional Neural-Net Model which can
   4) 'traffic_sign_4.jpg'
   5) 'traffic_sign_5.jpg' 
   
+  ### Excel File provided having details of different Traffic Sign types and their corresponding ids: 
+  signnames.csv
+  
+  ### Pretrained Model files provided in the "models" folder :
+  1) trafficlight_classifier_model.data-00000-of-00001
+  2) trafficlight_classifier_model.index
+  3) trafficlight_classifier_model.meta
+      
+      
