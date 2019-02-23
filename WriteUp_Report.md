@@ -45,17 +45,17 @@ For Preprocessing and Augmenting the data I used the below mentioned image proce
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 28x28x24 	|
-| Max pooling	      	| 2x2 stride,  outputs 14x14x24 				|
-| RELU     |            |
-| Convolution 5x5	    | 1x1 stride, VALID padding, outputs 10x10x64   |
-| Max pooling	      	| 2x2 stride,  outputs 5x5x64 				|
-| RELU     |            |
-| Dropout  |         |keep_probability =0.5            |
-| Flatten  |         |Input = 5x5x64. Output = 1600|
+| Input         		| 32x32x3 RGB image| 
+| Convolution 5x5   | 1x1 stride, VALID padding, outputs 28x28x24|
+| Max pooling	      | 2x2 stride,  outputs 14x14x24 				|
+| RELU
+| Convolution 5x5	  | 1x1 stride, VALID padding, outputs 10x10x64   |
+| Max pooling	      | 2x2 stride,  outputs 5x5x64 				|
+| RELU 
+| Dropout  |        | keep_probability =0.5            |
+| Flatten  |        | Input = 5x5x64. Output = 1600|
 | Fully connected		| Input = 1600. Output = 480    |
-| RELU     |            |
+| RELU   
 | Fully connected		| Input = 480. Output = 43    |
 
 #### HYPERPARAMETRS
@@ -68,18 +68,17 @@ For Preprocessing and Augmenting the data I used the below mentioned image proce
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
-| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 28x28x6 	|
-| RELU     |            |
-| Max pooling	      	| 2x2 stride,  outputs 14x14x6 				|
-
-| Convolution 5x5	    | 1x1 stride, VALID padding, outputs 10x10x16   |
-| RELU     |            |
-| Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
-| Flatten  |         |Input = 5x5x16. Output = 400|
+| Convolution 5x5   | 1x1 stride, VALID padding, outputs 28x28x6 	|
+| RELU 
+| Max pooling	      | 2x2 stride,  outputs 14x14x6 				|
+| Convolution 5x5	  | 1x1 stride, VALID padding, outputs 10x10x16   |
+| RELU    
+| Max pooling	      | 2x2 stride,  outputs 5x5x16 				|
+| Flatten  |        |Input = 5x5x16. Output = 400|
 | Fully connected		| Input = 400. Output = 120   |
-| RELU     |            |
+| RELU  
 | Fully connected		| Input = 120. Output = 84   |
-| RELU     |            |
+| RELU   
 | Fully connected		| Input = 84. Output = 43    |
 
 
