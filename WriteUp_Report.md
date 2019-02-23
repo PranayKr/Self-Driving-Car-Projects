@@ -1,6 +1,8 @@
 # **Traffic Sign Recognition** 
+# Problem Statement Description
+For this project the task is to build a Convolutional Neural-Net Model which can classify 43 different categories of Traffic Signs
 
-The Software Pipeline built for Traffic Sign consists of the following steps:
+The Software Pipeline built for Traffic Sign Classification consists of the following steps:
 * Load the German Traffic Sign Data Set (http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
