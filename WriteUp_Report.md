@@ -90,20 +90,20 @@ and a robust Image Classifier model should be able to correctly predict the traf
 | Fully connected		| Input = 84. Output = 43    |
 
 
-The first CNN model I added one more fully connected layer and also the number of output neurons for the convnet layers was less
-
-I increased the number of output neurons of the convent layer so that more features of the training data are learned quickly 
-during training phase.
+1) For the first initial CNN model I added one more fully connected layer and also the number of output neurons for the convnet layers 
+   was less
+2) I increased the number of output neurons of the 2 convnet layers so that more features of the training data are learned quickly 
+   during training phase.
 
 The validation accuracy did not reach beyond the benchamark 93 % even after training for 50 epochs with the first architecture
-
 Hence I made the changes mentioned above in the final CNN architecture.
 
-Dropout was one more addition I made to the final architecture with probability set to 0.5 to tackle overfitting during training
+3) Dropout was one more addition I made to the final architecture with probability set to 0.5 to tackle overfitting during training
+   on top of the maxpooled and RELU'ed output of the second ConvNet Layer
 
-I used a batch size of 64 so that learning of the model happnens quicker in a comparatively less number of epochs of 50 
+4) I used a batch size of 64 so that learning of the model happnens quicker in a comparatively less number of epochs of 50 
 
-I also lowered the learning rate from .001 to 1.0e-4 for stabilizing the learning of the model
+5) I also lowered the learning rate from .001 to 1.0e-4 for stabilizing the learning of the model
 
 Finally I achieved the following results :
 1) Validation Accuracy = 0.936
