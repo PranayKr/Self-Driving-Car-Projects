@@ -11,22 +11,18 @@ The Software Pipeline built for Traffic Sign Classification consists of the foll
 * Summarize the results with a written report
 
 ### Data Set Summary & Exploration
-
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
-
 * The size of training set is 34799
 * The size of the validation set is 4410
 * The size of test set is 12630
 * The shape of a traffic sign image is 32*32*3
 * The number of unique classes/labels in the data set is 43
 
-#### An exploratory visualization of the dataset.
-
+### An exploratory visualization of the dataset.
 Here is an exploratory visualization of the data set. It is a bar chart showing the distribution of the number of images for each 
 traffic sign category
 ![traffic_sign_classes_distibution_plot](https://user-images.githubusercontent.com/25223180/53284275-952f0280-3778-11e9-9650-e880b3e3f724.PNG)
-
 ### Designing and Testing of Model Architecture
 ### Data Preprocessing and Data Augmentation Steps 
 For Preprocessing and Augmenting the data I used the below mentioned image processing techniques:
@@ -42,14 +38,14 @@ images the CNN model has been pretrained on .
 This is because often in real-time scenarios the lighting conditions / angle of the camera / resolution of the camera would be varying
 and a robust Image Classifier model should be able to correctly predict the traffic sign type even in such not-so ideal conditions
 
-## Examples of Original Images 
+### Examples of Original Images 
 ![original_data](https://user-images.githubusercontent.com/25223180/53284432-834e5f00-377a-11e9-89aa-83e307b3911f.PNG)
-## Examples of Preprocessed Images and Fake Data generated using Data Augmentation and Normalization
+### Examples of Preprocessed Images and Fake Data generated using Data Augmentation and Normalization
 ![augmented_data](https://user-images.githubusercontent.com/25223180/53284433-89444000-377a-11e9-8165-7d80879c12b2.PNG)
 ![augmented_data2](https://user-images.githubusercontent.com/25223180/53284435-8d705d80-377a-11e9-9a06-b774d31ac4d7.PNG)
 ![augmenetd_normalized_data](https://user-images.githubusercontent.com/25223180/53284438-9103e480-377a-11e9-8026-45bcd26346fc.PNG)
-#### 2. Convolutional Neural Net Architecture 
-#### Final model architecture:
+### Convolutional Neural Net Architecture 
+### Final model architecture:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -66,14 +62,14 @@ and a robust Image Classifier model should be able to correctly predict the traf
 | RELU     |                                       |
 | Fully connected		| Input = 480. Output = 43     |
 
-#### HYPERPARAMETRS
+### HYPERPARAMETERS
 1) Batch_Size = 64
 2) NUMBER OF EPOCHS =50
 3) LEARNING RATE = 1.0e-4
 4) DROPOUT PROBABILITY = 0.5
 
-#### SOLUTION APPROACH
-### The first model architecture I used :
+### SOLUTION APPROACH
+### The first model architecture I had used :
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
@@ -120,7 +116,7 @@ bit warped in prespective .
 Taking into consideration all these miscellaneous conditions in which the model would have to correctly classify a traffic sign 
 data augmnentation and normalization techniques were used 
 
-#### Model's predictions on these new traffic signs 
+### Model's predictions on these new traffic signs 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
@@ -137,7 +133,7 @@ The model was able to correctly guess 2 of the 5 traffic signs, which gives an a
 The last 2 misclassifications are very close as the model was correctly able to infer that the images are related to No Passing 
 and No Passing for heavier vehicles
 
-#### The top 5 softmax probabilities for each image along with the sign type of each probability. 
+### The top 5 softmax probabilities for each image along with the sign type of each probability. 
 ![image1](https://user-images.githubusercontent.com/25223180/53285705-bba96980-3789-11e9-8add-7f1b2e19d1ed.PNG)
 ![image1_pred](https://user-images.githubusercontent.com/25223180/53285709-c237e100-3789-11e9-9aca-51687340a055.PNG)
 ![image2](https://user-images.githubusercontent.com/25223180/53285714-cf54d000-3789-11e9-94c2-f2f35d3b5c87.PNG)
@@ -149,8 +145,8 @@ and No Passing for heavier vehicles
 ![image5](https://user-images.githubusercontent.com/25223180/53285728-f4e1d980-3789-11e9-8702-46a54c9debb9.PNG)
 ![image5_pred](https://user-images.githubusercontent.com/25223180/53285730-f8756080-3789-11e9-9648-05ea638278cd.PNG)
 
-### POSSIBLE IMPROVEMENTS
-### Training the model for more number of Epochs more getting a more accurate well-learned model
-### Visualizing the Neural Network : Discussion and anaylysis the visual output of trained network's feature maps. 
+### POSSIBLE IMPROVEMENTS (FUTURE WORK)
+### 1) Training the model for more number of Epochs more getting a more accurate well-learned model
+### 2) Visualizing the Neural Network : Discussion and anaylysis the visual output of trained network's feature maps. 
 
 
