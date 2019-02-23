@@ -36,7 +36,9 @@ For Preprocessing and Augmenting the data I used the below mentioned image proce
 
 Data Normalization and Data Augmentation techniques were used to improve the learning scope of the CNN model so that the model can be
 generalized and scaled so as to properly predict / classify any traffic sign image which might be completely different from the 
-images the CNN model has been pretrained on 
+images the CNN model has been pretrained on .
+This is because often in real-time scenarios the lighting conditions / angle of the camera / resolution of the camera would be varying
+and a robust Image Classifier model should be able to correctly predict the traffic sign type even in such not-so ideal conditions
 
 ## Examples of Original Images 
 ![original_data](https://user-images.githubusercontent.com/25223180/53284432-834e5f00-377a-11e9-89aa-83e307b3911f.PNG)
@@ -110,7 +112,11 @@ Finally I achieved the following results :
 ### Prediction Results on Random New Images
 ### Random Images Used
 ![random_images](https://user-images.githubusercontent.com/25223180/53285415-2fe20e00-3786-11e9-8840-960226f1b38c.PNG)
-The first image might be difficult to classify because ...
+The first image might be difficult to classify because of low lighting conditions in the image , whereas the second image is a
+bit warped in prespective .
+
+Taking into consideration all these miscellaneous conditions in which the model would have to correctly classify a traffic sign 
+data augmnentation and normalization techniques were used 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
