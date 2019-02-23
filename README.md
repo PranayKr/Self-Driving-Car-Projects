@@ -6,7 +6,6 @@ For this project the task is to build a Convolutional Neural-Net Model which can
 # Training Data ShowCase 
 ![train_data_1](https://user-images.githubusercontent.com/25223180/53285884-7175b780-378c-11e9-90d3-aee741ce206b.PNG)
 ![train_data_2](https://user-images.githubusercontent.com/25223180/53285888-78042f00-378c-11e9-978e-d10cb319d0c4.PNG)
-![train_data_3](https://user-images.githubusercontent.com/25223180/53285891-7cc8e300-378c-11e9-8cdd-33981fcdc334.PNG)
 # Results ShowCase
 ![image1](https://user-images.githubusercontent.com/25223180/53285705-bba96980-3789-11e9-8add-7f1b2e19d1ed.PNG)
 ![image1_pred](https://user-images.githubusercontent.com/25223180/53285709-c237e100-3789-11e9-9aca-51687340a055.PNG)
