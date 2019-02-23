@@ -32,11 +32,11 @@ For Preprocessing and Augmenting the data I used the below mentioned image proce
 2) Randomly rotating the image
 3) Randomly moving/ warping the image
 4) Randomly distorting the image
-5) Normalizing the image
+5) Normalizing the image ((train_img - train_img.mean())/train_img.std())
 
-### Normalizing and Data Augmentation techniques were used to improve the learning scope of the CNN model so that the model can be 
-### generalized and scaled so as to properly predict / classify any traffic sign image which might be completely different from the 
-### images the CNN model has been pretrained on 
+Data Normalization and Data Augmentation techniques were used to improve the learning scope of the CNN model so that the model can be
+generalized and scaled so as to properly predict / classify any traffic sign image which might be completely different from the 
+images the CNN model has been pretrained on 
 
 ## Examples of Original Images 
 ![original_data](https://user-images.githubusercontent.com/25223180/53284432-834e5f00-377a-11e9-89aa-83e307b3911f.PNG)
