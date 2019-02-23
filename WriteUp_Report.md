@@ -121,12 +121,11 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Right-of-way at the next intersection      		| Right-of-way at the next intersection  									| 
-| Speed limit (60km/h)     			| Speed limit (60km/h) 							  |
-| Speed limit (70km/h)					| General caution											|
-| No passing	      		        | End of no passing                   |
-| No passing by vehicles over 3.5 metric tons			| End of no passing by vehicles over 3.5 metric tons      							|
-
+| Right-of-way at the next intersection      		| Right-of-way at the next intersection  (Correct)									| 
+| Speed limit (60km/h)     			| Speed limit (60km/h) 	(Correct)						  |
+| Speed limit (70km/h)					| General caution	 (Wrong)										|
+| No passing	      		        | End of no passing   (Not Exactly)                |
+| No passing by vehicles over 3.5 metric tons			| End of no passing by vehicles over 3.5 metric tons  (Not Exactly)    							|
 
 The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. 
 
