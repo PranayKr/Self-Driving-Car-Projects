@@ -145,7 +145,6 @@ and No Passing for heavier vehicles
 ![image4](https://user-images.githubusercontent.com/25223180/53285722-e85d8100-3789-11e9-8757-b46a5ce8636a.PNG)
 ![image4_pred](https://user-images.githubusercontent.com/25223180/53285725-eeebf880-3789-11e9-93bd-8cde3506a018.PNG)
 ![image5](https://user-images.githubusercontent.com/25223180/53285728-f4e1d980-3789-11e9-8702-46a54c9debb9.PNG)
- Softmax Probablities
 ![image5_pred](https://user-images.githubusercontent.com/25223180/53285730-f8756080-3789-11e9-9648-05ea638278cd.PNG)
 
 ### POSSIBLE IMPROVEMENTS
