@@ -38,10 +38,11 @@ For Preprocessing and Augmenting the data I used the below mentioned image proce
 5) Normalizing the image
 
 ## Examples of Original Images 
-![alt text][image2]
+![original_data](https://user-images.githubusercontent.com/25223180/53284432-834e5f00-377a-11e9-89aa-83e307b3911f.PNG)
 ## Examples of Preprocessed Images and Fake Data generated using Data Augmentation and Normalization
-![alt text][image3]
-
+![augmented_data](https://user-images.githubusercontent.com/25223180/53284433-89444000-377a-11e9-8165-7d80879c12b2.PNG)
+![augmented_data2](https://user-images.githubusercontent.com/25223180/53284435-8d705d80-377a-11e9-9a06-b774d31ac4d7.PNG)
+![augmenetd_normalized_data](https://user-images.githubusercontent.com/25223180/53284438-9103e480-377a-11e9-8026-45bcd26346fc.PNG)
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers:
