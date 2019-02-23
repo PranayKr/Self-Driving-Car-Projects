@@ -29,7 +29,7 @@ For this project the task is to build a Convolutional Neural-Net Model which can
     activate sdcnd
     
   c) Download the German Traffic Signs Dataset from this link
-     https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip
+     (https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip)
     
   d) Clone the repository (https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project)
      Then, install the dependencies (numpy/matplotlib/opencv and other libraries) by executing the below commands in Anaconda Prompt 
