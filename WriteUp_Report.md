@@ -140,21 +140,30 @@ Training for more number of Epochs should significantly improve the performance 
 ### The top 5 softmax probabilities for each image along with the sign type of each probability. 
 ![image1](https://user-images.githubusercontent.com/25223180/53285705-bba96980-3789-11e9-8add-7f1b2e19d1ed.PNG)
 ![image1_pred](https://user-images.githubusercontent.com/25223180/53285709-c237e100-3789-11e9-9aca-51687340a055.PNG)
+
 The model is quite sure of predicting the 1st sign correctly (well above 90 %)
+
 ![image2](https://user-images.githubusercontent.com/25223180/53285714-cf54d000-3789-11e9-94c2-f2f35d3b5c87.PNG)
 ![image2_pred](https://user-images.githubusercontent.com/25223180/53285718-d976ce80-3789-11e9-8978-d0fd1e967a49.PNG)
+
 The model classifies the second traffic sign with around 60 % confidence 
+
 ![image3](https://user-images.githubusercontent.com/25223180/53285719-ded41900-3789-11e9-87a5-0cc7455b0a87.PNG)
 ![image3_pred](https://user-images.githubusercontent.com/25223180/53285721-e398cd00-3789-11e9-9573-951f4050d9e2.PNG)
+
 The model misclassifies this Traffic Sign completely (Further training should improve the performance)
+
 ![image4](https://user-images.githubusercontent.com/25223180/53285722-e85d8100-3789-11e9-8757-b46a5ce8636a.PNG)
 ![image4_pred](https://user-images.githubusercontent.com/25223180/53285725-eeebf880-3789-11e9-93bd-8cde3506a018.PNG)
+
 The model does not classify this Traffic Sign correctly but predicts it to be the sign closest in appearance to it
 Hence we can conclude that at least the model is able correctly learn the features related to this traffic sign significantly
 Further training for more number of epochs and providing more training data generated using data augmentation should improve the
 performance of the model
+
 ![image5](https://user-images.githubusercontent.com/25223180/53285728-f4e1d980-3789-11e9-8702-46a54c9debb9.PNG)
 ![image5_pred](https://user-images.githubusercontent.com/25223180/53285730-f8756080-3789-11e9-9648-05ea638278cd.PNG)
+
 The model does not classify this Traffic Sign correctly but predicts it to be the sign closest in appearance to it
 Hence we can conclude that at least the model is able correctly learn the features related to this traffic sign significantly
 Further training for more number of epochs and providing more training data generated using data augmentation should improve the
