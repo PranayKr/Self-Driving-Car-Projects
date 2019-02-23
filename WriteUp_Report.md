@@ -35,8 +35,8 @@ For Preprocessing and Augmenting the data I used the below mentioned image proce
 5) Normalizing the image
 
 ### Normalizing and Data Augmentation techniques were used to improve the learning scope of the CNN model so that the model can be 
-generalized and scaled so as to properly predict / classify any traffic sign image which might be completely different from the images
-the CNN model has been pretrained on 
+### generalized and scaled so as to properly predict / classify any traffic sign image which might be completely different from the 
+### images the CNN model has been pretrained on 
 
 ## Examples of Original Images 
 ![original_data](https://user-images.githubusercontent.com/25223180/53284432-834e5f00-377a-11e9-89aa-83e307b3911f.PNG)
