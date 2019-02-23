@@ -149,7 +149,7 @@ The model classifies the second traffic sign with around 60 % confidence
 The model misclassifies this Traffic Sign completely (Further training should improve the performance)
 ![image4](https://user-images.githubusercontent.com/25223180/53285722-e85d8100-3789-11e9-8757-b46a5ce8636a.PNG)
 ![image4_pred](https://user-images.githubusercontent.com/25223180/53285725-eeebf880-3789-11e9-93bd-8cde3506a018.PNG)
-The model does not classify this Traffic Sign correctly but predicts it to be the sign closest in appearance ot it
+The model does not classify this Traffic Sign correctly but predicts it to be the sign closest in appearance to it
 Hence we can conclude that at least the model is able correctly learn the features related to this traffic sign significantly
 Further training for more number of epochs and providing more training data generated using data augmentation should improve the
 performance of the model
