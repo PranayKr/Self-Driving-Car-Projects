@@ -80,6 +80,16 @@ of 2 different versions of CNN Architecture
       of 1.0e-4 (0.0001)</td></tr><tr><td>Mean Square Error Loss Function used</td></tr></table></td>
   </tr>
 </table>
+<table>
+  <tr><td colspan=3 align="center">HYPERPARAMETERS</td></tr>
+  <tr><td></td><td align="center">Version 1</td><td align="center">Version 2</td></tr>
+  <tr><td>INPUT_SHAPE</td><td>(160, 320, 3)</td><td>(66, 200, 3)</td></tr>
+  <tr><td>BATCH_SIZE</td><td>32</td><td>40</td></tr>
+  <tr><td>NUMBER OF EPOCHS</td><td>15</td><td>10</td></tr>
+  <tr><td>LEARNING RATE</td><td>1.0e-4</td><td>1.0e-4</td></tr>
+  <tr><td>CORRECTION</td><td>0.25</td><td>0.2</td></tr>
+  <tr><td>DROPOUT PROBABILITY</td><td>0.5</td><td>0.5</td></tr>
+</table>
 
 #### 1. An appropriate model architecture has been employed
 
