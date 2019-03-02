@@ -93,27 +93,21 @@ of 2 different versions of CNN Architecture
   <tr><td>OPTIMIZER</td><td>ADAM OPTIMIZER</td><td>ADAM OPTIMIZER</td></tr>
 </table>
 
-#### 1. An appropriate model architecture has been employed
-
-My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) 
-
-The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
-
-#### 2. Attempts to reduce overfitting in the model
-
-The model contains dropout layers in order to reduce overfitting (model.py lines 21). 
-
-The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 10-16). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
-
-#### 3. Model parameter tuning
-
-The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).
-
-#### 4. Appropriate training data
-
-Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road ... 
-
-For details about how I created the training data, see the next section. 
+### DATA PREPROCESSING AND DATA AUGMENTATION 
+#### Creation of the Training Set & Training Process
+The Sample Training Data was used for both the versions of the Deep ConvNet Models
+The Data was split into Training and Validation Set to measure the performance of the CNN model at every epoch.
+Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE loss function (MEAN SQUARE ERROR)
+<table>
+   <tr><td colspan=2 align="center">DATA PREPROCESSING</td></tr>
+   <tr><td align="center">Version 1</td><td align="center">Version 2</td></tr>
+   <tr><td>The images are cropped using Cropping2D layer in ConvNet Model to remove the top and bottom pixels having the sky and the car 
+   front parts </td><td>Images are cropped so that the model won’t be trained with the sky and the car front parts</td></tr>
+   <tr><td>Images are not resized but on cropping the input dimensions reduce</td><td>Images are resized to 66x200 (3 YUV channels) 
+   as per NVIDIA model</td></tr><tr><td>Images are normalized (image data divided by 255.0 and subtracted 0.5) to avoid saturation and 
+   make gradients work better</td><td>Images are normalized (image data divided by 127.5 and subtracted 1.0) to avoid saturation and 
+   make gradients work better</td></tr>    
+</table>
 
 ### Model Architecture and Training Strategy
 
@@ -133,39 +127,9 @@ The final step was to run the simulator to see how well the car was driving arou
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
-#### 2. Final Model Architecture
-
-The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes ...
-
-Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
-
-![alt text][image1]
-
-#### 3. Creation of the Training Set & Training Process
-
-To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
-
-![alt text][image2]
-
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
-
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-
-Then I repeated this process on track two in order to get more data points.
-
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
-
-![alt text][image6]
-![alt text][image7]
-
-Etc ....
-
-After the collection process, I had X number of data points. I then preprocessed this data by ...
 
 
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+
 
