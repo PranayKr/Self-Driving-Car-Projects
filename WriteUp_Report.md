@@ -70,7 +70,7 @@ of 2 different versions of CNN Architecture
       and kernel size of 5x5</td></tr><tr><td>2 Convolution Layers having VALID padding,ELU Activation function 
       and kernel size of 3x3</td></tr><tr><td>One Flatten Layer</td></tr><tr><td>One Dropout Layer with probability of 0.5</td></tr>
       <tr><td>3 Dense Layers with ELU Activation function</td></tr><tr><td>1 Dense Layer with single output Neuron to predict the 
-      Steering Angle Value</td></tr>
+      Steering Angle Value</td></tr></table></td>
   <td>Describe</td>
   </tr>
 </table>
