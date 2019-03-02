@@ -33,6 +33,8 @@ Learning by implementing a logistic regression algorithm where the ConvNet Model
 central,rigt and left cameras ia able to accurately predict what steering angle the simulated car should take so that it always remains
 on the lane and nevers veers off the track / road to surrounding country side simulated in the environment provided.
 
+The design of the network is inspired from the state-of-the-Art NVIDIA model, which has been used by NVIDIA for the end-to-end self driving test by mapping the raw pixels from a front-facing camera to the steering commands for a self-driving car.
+
 The Convolutional Neural Net Model created has multiple Convolutional Layers followed by few feedforward Neural-Net Layers.
 The Convoluyional Layers act as feature-learners learning the unique features of the lanes images provided as camera feed whereas
 the fully connected layers (feedforward dense layers) take up the task of excuting logistic regression on the basis of the output
@@ -45,10 +47,10 @@ lable "Steering Angle"
 Efforts were made to develop such a ConvNet Model and improvide on its efficiency and accuracy by trying the below mentioned details
 of 2 different versions of CNN Architecture
 <table>
-  <tr><td colspan=2 align="center">CNN Model Architecture</td></tr>
-  <tr><td align="center">Version 1</td><td align="center">Version 2</td></tr>
-  <tr><td><image src="https://user-images.githubusercontent.com/25223180/53684231-ed45a600-3d30-11e9-8eed-eec0c82d87f8.PNG"></td>
-  <td><image src="https://user-images.githubusercontent.com/25223180/53684235-f3d41d80-3d30-11e9-961d-921f750e7ef8.PNG"></td></tr>
+  <tr><td colspan=3 align="center">CNN Model Architecture</td></tr>
+  <tr><td align="center">NVIDIA CNN Model</td><td align="center">Version 1</td><td align="center">Version 2</td></tr>
+  <tr><td></td><td><image src="https://user-images.githubusercontent.com/25223180/53684231-ed45a600-3d30-11e9-8eed-eec0c82d87f8.PNG">
+  </td><td><image src="https://user-images.githubusercontent.com/25223180/53684235-f3d41d80-3d30-11e9-961d-921f750e7ef8.PNG"></td></tr>
 </table>
 
 #### 1. An appropriate model architecture has been employed
