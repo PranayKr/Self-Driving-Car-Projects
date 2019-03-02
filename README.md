@@ -98,3 +98,7 @@ For this project the task is to accurately predict the steering angle to be take
 ### Python Script to generate video from the iamge frames captured from the last run in the Simulator:
   video.py
   
+### Output Results Videos Files :
+  1) sim_run_v1.mp4 (Version 1)
+  2) sim_run_v2.mp4 (Version 2)
+  
