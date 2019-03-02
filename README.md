@@ -31,7 +31,7 @@ For this project the task is to accurately predict the steering angle to be take
      for the specific Operating System and Architecure (64-bit or 32-bit) being used
      for Python 3.6 + version onwards
     
-  b) Clone the below provided Repository using Anaconda Prompt Shell
+  b) Clone the mentioned Repository using Anaconda Prompt Shell
      ([CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit))
      
      The lab enviroment can be created with CarND Term1 Starter Kit. 
