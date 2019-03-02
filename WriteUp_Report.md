@@ -63,7 +63,7 @@ of 2 different versions of CNN Architecture
   <tr><td colspan=2 align="center">CNN Model Architecture Desciption and Comparison</td></tr>
   <tr><td align="center">Version 1</td><td align="center">Version 2</td></tr>
   <tr>
-    <td><table><tr><td>Lambda Layer for input images normalization (dimension of input images (160, 320, 3)</td></tr>
+    <td><table><tr><td>Lambda Layer for input images normalization (dimension of input images (160, 320, 3))</td></tr>
       <tr><td>Cropping2D layer to resize images to remove the top pixels having sky and trees and landscape and bottom part having the
       front bonet of the car in view</td></tr><tr><td>2 Convolution Layers having SAME padding,ELU Activation function 
       and kernel size of 5x5</td></tr><tr><td>1 Convolution Layer having VALID padding,ELU Activation function 
@@ -72,7 +72,7 @@ of 2 different versions of CNN Architecture
       <tr><td>3 Dense Layers with ELU Activation function</td></tr><tr><td>1 Dense Layer with single output Neuron to predict the 
       Steering Angle Value</td></tr><tr><td>ADAM Optimizer used with Learning Rate of 1.0e-4 (0.0001)</td></tr><tr><td>Mean Square Error
       Loss Function used</td></tr></table></td>
-  <td><table><tr><td>Lambda Layer for input images normalization (dimension of input images (66, 200, 3)</td></tr><tr><td>3 Convolution
+  <td><table><tr><td>Lambda Layer for input images normalization (dimension of input images (66, 200, 3))</td></tr><tr><td>3 Convolution
       Layers having ELU Activation function and kernel size of 5x5</td></tr><tr><td>2 Convolution
       Layers having ELU Activation function and kernel size of 3x3</td></tr><tr><td>Dropout Layer with probability of 0.5</td></tr>
       <tr><td>One Flatten Layer</td></tr><tr><td>3 Dense Layers with ELU Activation function</td></tr><tr><td>1 Dense Layer with single
