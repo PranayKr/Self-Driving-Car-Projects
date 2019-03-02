@@ -37,7 +37,7 @@ For this project the task is to accurately predict the steering angle to be take
      The lab enviroment can be created with CarND Term1 Starter Kit. 
      Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) for the details.
           
-  c) Clone the below provided Self-Driving Car Simulator Repository
+  c) Clone the Self-Driving Car Simulator Repository
      (https://github.com/udacity/self-driving-car-sim.git)
      
   d) Install Unity and then load the self-drive-car-sim project in Unity IDE  
