@@ -20,7 +20,7 @@ For this project the task is to accurate predict the steering angle to be taken 
   </tr>
   <tr>
     <td>Version 2</td>
-    <td><table><tr><td></td><td>Image</td></tr><tr><td>LINK</td><td>https://youtu.be/lQPSs7eMMDc</td></tr></table></td>
+    <td><table><tr><td></td><td><img src="https://user-images.githubusercontent.com/25223180/53681524-fd4d8d80-3d10-11e9-88ff-49dc3e94af58.png"></td></tr><tr><td>LINK</td><td>https://youtu.be/lQPSs7eMMDc</td></tr></table></td>
     <td><table><tr><td></td><td>Image</td></tr><tr><td>LINK</td><td>https://youtu.be/boSpQ0HSPIQ</td></tr></table></td>
   </tr>
 </table>
