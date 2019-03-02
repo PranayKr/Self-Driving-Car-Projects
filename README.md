@@ -24,6 +24,7 @@ For this project the task is to accurately predict the steering angle to be take
     <td><table><tr><td></td><td><img src="https://user-images.githubusercontent.com/25223180/53681720-7d74f280-3d13-11e9-84ca-8198ebafb1a5.png"></td></tr><tr><td>LINK</td><td>https://youtu.be/boSpQ0HSPIQ</td></tr></table></td>
   </tr>
 </table>
+
 # Installation Instructions to setup the Project :
 ### Setting Up Python Environment :
   a) Download and install Anaconda 3 (latest version 5.3) from this link (https://www.anaconda.com/download/)
