@@ -65,7 +65,7 @@ of 2 different versions of CNN Architecture
   <tr>
     <td><table><tr><td>Lambda Layer for input images normalization (dimension of input images (160, 320, 3)</td></tr>
       <tr><td>Cropping2D layer to resize iamges to remove the top pixels having sky and trees and landscape and bottom part having the
-      front bonet of the car in view</td></tr></table></td><tr><td>2 Convolution Layers having SAME padding,ELU Activation function 
+      front bonet of the car in view</td></tr><tr><td>2 Convolution Layers having SAME padding,ELU Activation function 
       and kernel size of 5x5</td></tr><tr><td>1 Convolution Layer having VALID padding,ELU Activation function 
       and kernel size of 5x5</td></tr><tr><td>2 Convolution Layers having VALID padding,ELU Activation function 
       and kernel size of 3x3</td></tr><tr><td>One Flatten Layer</td></tr><tr><td>One Dropout Layer with probability of 0.5</td></tr>
