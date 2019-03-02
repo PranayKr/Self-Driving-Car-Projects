@@ -29,10 +29,21 @@ For this project the task is to accurate predict the steering angle to be taken 
 
 <table>
   <tr>
-    <td>One</td>
-    <td>Two</td>
+    <td colspan="3">Lake Track</td>
   </tr>
   <tr>
-    <td colspan="2">Three</td>
+    <td> </td>
+    <td>Third Person View</td>
+    <td>First Person View</td>
+  </tr>
+  <tr>
+    <td>Version 1</td>
+    <td>https://youtu.be/iysVoURBi-w</td>
+    <td>https://youtu.be/OOWMpntXZdo</td>
+  </tr>
+  <tr>
+    <td>Version 2</td>
+    <td>https://youtu.be/lQPSs7eMMDc</td>
+    <td>https://youtu.be/boSpQ0HSPIQ</td>
   </tr>
 </table>
