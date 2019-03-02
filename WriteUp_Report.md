@@ -87,8 +87,8 @@ of 2 different versions of CNN Architecture
   <tr><td>BATCH_SIZE</td><td>32</td><td>40</td></tr>
   <tr><td>NUMBER OF EPOCHS</td><td>15</td><td>10</td></tr>
   <tr><td>LEARNING RATE</td><td>1.0e-4</td><td>1.0e-4</td></tr>
-  <tr><td>STEERING ANGLE CORRECTION (ADJUSTMENT)</td><td> (+/-)0.25 <table><tr><td>+</td><td>LEFT IMAGE</td></tr><tr><td>-</td><td>RIGHT
-  IMAGE</td></tr></table></td><td>(+/-)0.2 <table><tr><td>+</td><td>LEFT IMAGE</td></tr><tr><td>-</td><td>RIGHT
+  <tr><td>STEERING ANGLE CORRECTION (ADJUSTMENT)</td><td><table><tr><td>+0.25</td><td>LEFT IMAGE</td></tr><tr><td>-0.25</td><td>RIGHT
+  IMAGE</td></tr></table></td><td><table><tr><td>+0.2</td><td>LEFT IMAGE</td></tr><tr><td>-0.2</td><td>RIGHT
   IMAGE</td></tr></table></td></tr>
   <tr><td>DROPOUT PROBABILITY</td><td>0.5</td><td>0.5</td></tr>
   <tr><td>LOSS FUNCTION</td><td>MEAN SQUARE ERROR</td><td>MEAN SQUARE ERROR</td></tr>
