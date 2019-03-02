@@ -50,6 +50,7 @@ For this project the task is to accurately predict the steering angle to be take
   3) Maneuver the Simulated Car in the Unity Environment in either Lake Road environment or Jungle Track environment
      to generate training images
   4) After the training images have been generated run either of the following commands in Ananconda Prompt Shell
+     
      a) Version 1
         ```sh
         python model.py
@@ -68,6 +69,7 @@ For this project the task is to accurately predict the steering angle to be take
   2) Open Anaconda prompt shell window and navigate inside the Behavior-Cloning/ cloned repository folder.
   3) Start up the Udacity self-driving simulator, choose a scene and press the Autonomous Mode button.
   3) Run the pretrained model by executing the following command : 
+     
      a) Version 1 
      ```sh
      python drive.py model.h5
