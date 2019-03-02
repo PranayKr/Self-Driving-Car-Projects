@@ -9,7 +9,7 @@ For this project the task is to accurate predict the steering angle to be taken 
 ## 3) [link to the entire video result of Behavior Cloning on Lake Track (Version 1) (Front View)] (https://youtu.be/OOWMpntXZdo)
 ## 4) [link to the entire video result of Behavior Cloning on Lake Track (Version 2) (Front View)] (https://youtu.be/boSpQ0HSPIQ)
 
-|               |                         Lake Track |                                  | 
+|  :----------- |                       :Lake Track: | ------------------------------:  | 
 |               |        Third Person View           |      First Person View           |
 | :------------ | :--------------------------------: | ------------------------------:  |
 | Version 1     | https://youtu.be/iysVoURBi-w       |  https://youtu.be/OOWMpntXZdo    |
