@@ -34,17 +34,20 @@ central,rigt and left cameras ia able to accurately predict what steering angle 
 on the lane and nevers veers off the track / road to surrounding country side simulated in the environment provided.
 
 The design of the network is inspired from the state-of-the-Art NVIDIA model, which has been used by NVIDIA for the end-to-end self driving test by mapping the raw pixels from a front-facing camera to the steering commands for a self-driving car.
-
+<table>
+  <tr><td align="center">NVIDIA CNN Model</td></tr>
+  <tr><td><image src="https://user-images.githubusercontent.com/25223180/53684690-74494d00-3d36-11e9-9f14-8a0cfad23e39.png"</td></tr>
+</table>
 The Convolutional Neural Net Model created has multiple Convolutional Layers followed by few feedforward Neural-Net Layers.
 The Convoluyional Layers act as feature-learners learning the unique features of the lanes images provided as camera feed whereas
-the fully connected layers (feedforward dense layers) take up the task of excuting logistic regression on the basis of the output
-of Convolutional Layers to predict steering angle label's value provided a certain Image as input.
+the fully connected layers (feedforward dense layers) take up the task of executing logistic regression algorithm on the basis of the 
+output of Convolutional Layers to predict steering angle label's value provided a certain Image as input.
 
 Hence During Training the Training data has been divided into features (Input Feed Images procured from the Central,Right and Left
 Cameras) and lables (Speed / Throttle / Steering and Brake values) out of which basically the model needs to predict the value of the
 lable "Steering Angle"
 
-Efforts were made to develop such a ConvNet Model and improvide on its efficiency and accuracy by trying the below mentioned details
+Efforts were made to develop such a ConvNet Model and improvise on its efficiency and accuracy by trying the below mentioned details
 of 2 different versions of CNN Architecture
 
 <table>
@@ -56,10 +59,7 @@ of 2 different versions of CNN Architecture
   </tr>
 </table>
 
-<table>
-  <tr><td align="center">NVIDIA CNN Model</td></tr>
-  <tr><td><image src="https://user-images.githubusercontent.com/25223180/53684690-74494d00-3d36-11e9-9f14-8a0cfad23e39.png"</td></tr>
-</table>
+
 
 #### 1. An appropriate model architecture has been employed
 
