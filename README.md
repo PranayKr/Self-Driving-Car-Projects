@@ -67,7 +67,7 @@ For this project the task is to accurately predict the steering angle to be take
   around the track by the following steps:
   1) First of all clone this repository (https://github.com/PranayKr/Self-Driving-Car-Projects.git) on local system.
   2) Open Anaconda prompt shell window and navigate inside the Behavior-Cloning/ cloned repository folder.
-  3) Start up the Udacity self-driving simulator, choose a scene and press the Autonomous Mode button.
+  3) Start up the self-driving simulator, choose a scene and press the Autonomous Mode button.
   3) Run the pretrained model by executing the following command : 
      
      a) Version 1 
