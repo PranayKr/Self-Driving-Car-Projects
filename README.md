@@ -78,23 +78,23 @@ For this project the task is to accurately predict the steering angle to be take
      Option 1 :  python drive.py model.h5 (Version 1) 
      Option 2 :  python drive_V2.py model_updated.h5 (Version 2) 
       
-  ### Behavior Cloning Implementation Details (Files Used) :
+# Behavior Cloning Implementation Details (Files Used) :
 
-  ### Model Architecture / Image Data Preprocessing and Model Training Logic Files:
+### Model Architecture / Image Data Preprocessing and Model Training Logic Files:
   1) model.py (Version 1) 
   2) model_V2.py (Version 2)
 
-  ### Excel File having the log data mapping the Training Data Images to corresponding values of steering,throttle,break and speed: 
+### Excel File having the log data mapping the Training Data Images to corresponding values of steering,throttle,break and speed: 
   driving_log.csv
   
-  ### Pretrained Model files provided in the "models" folder :
+### Pretrained Model files provided in the "models" folder :
   1) model.h5 (Version 1) 
   2) model_updated.h5 (Version 2) 
   
-  ### Python Script to drive the car in autonomous mode in the Unity Environment Simulator:
+### Python Script to drive the car in autonomous mode in the Unity Environment Simulator:
   1) drive.py (Version 1) 
   2) drive_V2.py (Version 2)
   
-  ### Python Script to generate video from the iamge frames captured from the last run in the Simulator:
+### Python Script to generate video from the iamge frames captured from the last run in the Simulator:
   video.py
   
