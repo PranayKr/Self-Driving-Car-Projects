@@ -50,20 +50,32 @@ For this project the task is to accurately predict the steering angle to be take
   3) Maneuver the Simulated Car in the Unity Environment in either Lake Road environment or Jungle Track environment
      to generate training images
   4) After the training images have been generated run either of the following commands in Ananconda Prompt Shell
-     Option 1 :  python model.py (Version 1) 
-     Option 2 :  python model_V2.py (Version 2)
-     
+     a) Version 1
+        ```sh
+        python model.py
+        ```
+     b) Version 2
+        ```sh
+        python model_V2.py
+        ```
      After Training is over a file "model.h5" would be generated for Version 1 or a file "model_updated.h5" would be generated for
      Version 2
 
 # Details of running the Code Implementation :
+  Using the self-drive car Unity simulator and drive.py (Version 1) / drive_V2.py (Version 2) file, the car can be driven autonomously
+  around the track by the following steps:
   1) First of all clone this repository (https://github.com/PranayKr/Self-Driving-Car-Projects.git) on local system.
   2) Open Anaconda prompt shell window and navigate inside the Behavior-Cloning/ cloned repository folder.
   3) Start up the Udacity self-driving simulator, choose a scene and press the Autonomous Mode button.
   3) Run the pretrained model by executing the following command : 
-     Option 1 :  python drive.py model.h5 (Version 1) 
-     Option 2 :  python drive_V2.py model_updated.h5 (Version 2) 
-      
+     a) Version 1 
+     ```sh
+     python drive.py model.h5
+     ```
+     b) Version 2
+     ```sh
+     python drive_V2.py model_updated.h5
+     ```   
 # Behavior Cloning Implementation Details (Files Used) :
 
 ### Model Architecture / Image Data Preprocessing and Model Training Logic Files:
