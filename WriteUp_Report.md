@@ -50,6 +50,13 @@ of 2 different versions of CNN Architecture
 ## CNN Model Architecture for Version 2
 ![modelarch_version2](https://user-images.githubusercontent.com/25223180/53684235-f3d41d80-3d30-11e9-961d-921f750e7ef8.PNG)
 
+<table>
+  <tr><td colspan=2 textalign="center">CNN Model Architecture</td></tr>
+  <tr><td>Version 1</td><td>Version 2</td></tr>
+  <tr><td><image src="https://user-images.githubusercontent.com/25223180/53684231-ed45a600-3d30-11e9-8eed-eec0c82d87f8.PNG"></td>
+  <td><image src="https://user-images.githubusercontent.com/25223180/53684235-f3d41d80-3d30-11e9-961d-921f750e7ef8.PNG"></td></tr>
+</table>
+
 #### 1. An appropriate model architecture has been employed
 
 My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) 
