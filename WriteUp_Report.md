@@ -70,8 +70,14 @@ of 2 different versions of CNN Architecture
       and kernel size of 5x5</td></tr><tr><td>2 Convolution Layers having VALID padding,ELU Activation function 
       and kernel size of 3x3</td></tr><tr><td>One Flatten Layer</td></tr><tr><td>One Dropout Layer with probability of 0.5</td></tr>
       <tr><td>3 Dense Layers with ELU Activation function</td></tr><tr><td>1 Dense Layer with single output Neuron to predict the 
-      Steering Angle Value</td></tr><tr><td>ADAM Optimizer used</td></tr><tr><td>Mean Square Error Loss Funxtion used</td></tr></table></td>
-  <td>Describe</td>
+      Steering Angle Value</td></tr><tr><td>ADAM Optimizer used with Learning Rate of 1.0e-4 (0.0001)</td></tr><tr><td>Mean Square Error
+      Loss Function used</td></tr></table></td>
+  <td><table><tr><td>Lambda Layer for input images normalization (dimension of input images (66, 200, 3)</td></tr><tr><td>3 Convolution
+      Layers having ELU Activation function and kernel size of 5x5</td></tr><tr><td>2 Convolution
+      Layers having ELU Activation function and kernel size of 3x3</td></tr><tr><td>Dropout Layer with probability of 0.5</td></tr>
+      <tr><td>One Flatten Layer</td></tr><tr><td>3 Dense Layers with ELU Activation function</td></tr><tr><td>1 Dense Layer with single
+      output Neuron to predict the Steering Angle Value</td></tr><tr><td>ADAM Optimizer used with Learning Rate of 1.0e-4 (0.0001)</td>
+      </tr><tr><td>Mean Square Error Loss Function used</td></tr></table></td>
   </tr>
 </table>
 
