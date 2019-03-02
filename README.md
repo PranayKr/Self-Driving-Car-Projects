@@ -31,33 +31,17 @@ For this project the task is to accurately predict the steering angle to be take
     for the specific Operating System and Architecure (64-bit or 32-bit) being used
     for Python 3.6 + version onwards
     
-  b) Create (and activate) a new environment with Python 3.6.:
-    Open Anaconda prompt and then execute the below given commands
-    
-    Linux or Mac:
-    conda create --name sdcnd python=3.6
-    source activate sdcnd
-    
-    Windows:
-    conda create --name sdcnd python=3.6 
-    activate sdcnd
-    
+  b) Clone the below provided Repository using Anaconda Prompt Shell
+     ([CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit))
+     
+     The lab enviroment can be created with CarND Term1 Starter Kit. 
+     Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) for the details.
+          
   c) Clone the below provided Self-Driving Car Simulator Repository
      (https://github.com/udacity/self-driving-car-sim.git)
      
   d) Install Unity and then load the self-drive-car-sim project in Unity IDE  
-    
-  e) Then, install the dependencies (numpy/matplotlib/opencv/keras/argparse and other libraries) by executing the below commands in 
-     Anaconda Prompt Shell :
-     
-     Windows:
-     1) conda install numpy
-     2) conda install pandas
-     3) conda install -c conda-forge matplotlib     
-     4) conda install -c conda-forge opencv
-     5) conda install -c conda-forge keras
-     5) Install other libraries as required using conda package manager
-
+   
 # Details of Training the model
   1) Start up the Udacity self-driving simulator, choose a scene and press the Training Mode button.
   2) Select a folder in which all the training images generated during manual run would be saved
