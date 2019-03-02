@@ -1,7 +1,7 @@
 # Implementation of Car-Driving Behavior Cloning using Unity Self-Driving Car Simulator and Convolutional Neural Network Model with Keras Library to execute Supervised Learning with Logistic Regression Algorithm to predict correct steering angle to be taken by the simulated car based on the inputs of LIVE Feed of Center , Left and Right Cameras mounted on top of the Car 
 
 # Problem Statement Description
-For this project the task is to accurate predict the steering angle to be taken by the simulated car based on the inputs of LIVE Camera Feed of Center , Left and Right Cameras mounted on top of the Car and hence clone / imitate the driving behaviour of a real person behind the steering wheel.
+For this project the task is to accurately predict the steering angle to be taken by the simulated car based on the inputs of LIVE Camera Feed of Center , Left and Right Cameras mounted on top of the Car and hence clone / imitate the driving behaviour of a real person behind the steering wheel.
 
 # Results Showcase
 <table>
