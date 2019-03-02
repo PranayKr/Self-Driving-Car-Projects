@@ -27,6 +27,28 @@ The goals / steps of this project are the following:
      ```
 
 ### Model Architecture and Training Strategy
+For this project a basic Convolutional Neural Network Architecture has been used which is trained on LIVE Feeds of Cameras mounted 
+on top of the car-agent in the Unity Simulation environment. The strategy used is that of using Supervised Learning by implementing
+a logistic regression algorithm where the ConvNet Model trained on images of the inputs provided by the central,rigt and left cameras
+ia able to accurately predict what steering angle the simulated car should take so that it always remains on the lane and nevers veers
+off the track / road to surrounding country side simulated in the environment provided.
+
+The Convolutional Neural Net Model created has multiple Convolutional Layers followed by few feedforward Neural-Net Layers.
+The Convoluyional Layers act as feature-learners learning the unique features of the lanes images provided as camera feed whereas
+the fully connected layers (feedforward dense layers) take up the task of excuting logistic regression on the basis of the output
+of Convolutional Layers to predict steering angle label's value provided a certain Image as input.
+
+Hence During Training the Training data has been divided into features (Input Feed Images procured from the Central,Right and Left
+Cameras) and lables (Speed / Throttle / Steering and Brake values) out of which basically the model needs to predict the value of the
+lable "Steering Angle"
+
+Efforts were made to develop such a ConvNet Model and improvide on its efficiency and accuracy by trying the below mentioned details
+of 2 different versions of CNN Architecture
+
+## CNN Model Architecture for Version 1
+![modelarch_version1](https://user-images.githubusercontent.com/25223180/53684231-ed45a600-3d30-11e9-8eed-eec0c82d87f8.PNG)
+## CNN Model Architecture for Version 2
+![modelarch_version2](https://user-images.githubusercontent.com/25223180/53684235-f3d41d80-3d30-11e9-961d-921f750e7ef8.PNG)
 
 #### 1. An appropriate model architecture has been employed
 
