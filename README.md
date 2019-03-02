@@ -11,11 +11,15 @@ For this project the task is to accurate predict the steering angle to be taken 
 
 |                                        Lake Track                                     |         
 |               |        Third Person View           |      First Person View           |
-| ------------- | ---------------------------------- | -------------------------------  |
+| :------------ | :--------------------------------: | ------------------------------:  |
 | Version 1     | https://youtu.be/iysVoURBi-w       |  https://youtu.be/OOWMpntXZdo    |
 | Version 2     | https://youtu.be/lQPSs7eMMDc       |  https://youtu.be/boSpQ0HSPIQ    |
 
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 
 | First Header  | Second Header |
