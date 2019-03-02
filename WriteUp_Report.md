@@ -49,8 +49,9 @@ of 2 different versions of CNN Architecture
 <table>
   <tr><td colspan=3 align="center">CNN Model Architecture</td></tr>
   <tr><td align="center">NVIDIA CNN Model</td><td align="center">Version 1</td><td align="center">Version 2</td></tr>
-  <tr><td></td><td><image src="https://user-images.githubusercontent.com/25223180/53684231-ed45a600-3d30-11e9-8eed-eec0c82d87f8.PNG">
-  </td><td><image src="https://user-images.githubusercontent.com/25223180/53684235-f3d41d80-3d30-11e9-961d-921f750e7ef8.PNG"></td></tr>
+  <tr><td><image src="https://user-images.githubusercontent.com/25223180/53684690-74494d00-3d36-11e9-9f14-8a0cfad23e39.png"</td>
+  <td><image src="https://user-images.githubusercontent.com/25223180/53684231-ed45a600-3d30-11e9-8eed-eec0c82d87f8.PNG"></td>
+  <td><image src="https://user-images.githubusercontent.com/25223180/53684235-f3d41d80-3d30-11e9-961d-921f750e7ef8.PNG"></td></tr>
 </table>
 
 #### 1. An appropriate model architecture has been employed
