@@ -6,7 +6,7 @@ For this project the task is to accurate predict the steering angle to be taken 
 # Results Showcase
 <table>
   <tr>
-    <td colspan="3">Lake Track</td>
+    <td colspan="3">         Lake Track          </td>
   </tr>
   <tr>
     <td> </td>
