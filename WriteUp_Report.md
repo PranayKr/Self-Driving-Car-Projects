@@ -59,7 +59,14 @@ of 2 different versions of CNN Architecture
   </tr>
 </table>
 
-
+<table>
+  <tr><td colspan=2 align="center">CNN Model Architecture</td></tr>
+  <tr><td align="center">Version 1</td><td align="center">Version 2</td></tr>
+  <tr>
+  <td>Describe</td>
+  <td>Describe</td>
+  </tr>
+</table>
 
 #### 1. An appropriate model architecture has been employed
 
