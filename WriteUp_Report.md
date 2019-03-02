@@ -89,6 +89,8 @@ of 2 different versions of CNN Architecture
   <tr><td>LEARNING RATE</td><td>1.0e-4</td><td>1.0e-4</td></tr>
   <tr><td>CORRECTION</td><td>0.25</td><td>0.2</td></tr>
   <tr><td>DROPOUT PROBABILITY</td><td>0.5</td><td>0.5</td></tr>
+  <tr><td>LOSS FUNCTION</td><td>MEAN SQUARE ERROR</td><td>MEAN SQUARE ERROR</td></tr>
+  <tr><td>OPTIMIZER</td><td>ADAM OPTIMIZER</td><td>ADAM OPTIMIZER</td></tr>
 </table>
 
 #### 1. An appropriate model architecture has been employed
