@@ -29,8 +29,8 @@ The goals / steps of this project are the following:
 ### Model Architecture and Training Strategy
 For this project a basic Convolutional Neural Network Architecture has been used developed using Keras Library which is trained on LIVE
 Feeds of Cameras mounted on top of the car-agent in the Unity Simulation environment. The strategy used is that of using Supervised
-Learning by implementing a logistic regression algorithm where the ConvNet Model trained on images of the inputs provided by the
-central,rigt and left cameras ia able to accurately predict what steering angle the simulated car should take so that it always remains
+Image Classification / Regression algorithm where the ConvNet Model trained on images of the inputs provided by the
+central,rigt and left cameras is able to accurately predict what steering angle the simulated car should take so that it always remains
 on the lane and nevers veers off the track / road to surrounding country side simulated in the environment provided.
 
 The design of the network is inspired from the state-of-the-Art NVIDIA model, which has been used by NVIDIA for the end-to-end self driving test by mapping the raw pixels from a front-facing camera to the steering commands for a self-driving car.
