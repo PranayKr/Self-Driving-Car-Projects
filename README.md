@@ -28,8 +28,8 @@ For this project the task is to accurately predict the steering angle to be take
 # Installation Instructions to setup the Project :
 ### Setting Up Python Environment :
   a) Download and install Anaconda 3 (latest version 5.3) from this link (https://www.anaconda.com/download/)
-    for the specific Operating System and Architecure (64-bit or 32-bit) being used
-    for Python 3.6 + version onwards
+     for the specific Operating System and Architecure (64-bit or 32-bit) being used
+     for Python 3.6 + version onwards
     
   b) Clone the below provided Repository using Anaconda Prompt Shell
      ([CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit))
@@ -43,7 +43,7 @@ For this project the task is to accurately predict the steering angle to be take
   d) Install Unity and then load the self-drive-car-sim project in Unity IDE  
    
 # Details of Training the model
-  1) Start up the Udacity self-driving car simulator, choose a scene and press the Training Mode button.
+  1) Start up the Udacity self-driving car simulator in Unity , choose a scene and press the Training Mode button.
   2) Select a folder in which all the training images generated during manual run would be saved
   3) Maneuver the Simulated Car in the Unity Environment in either Lake Road environment or Jungle Track environment
      to generate training images
