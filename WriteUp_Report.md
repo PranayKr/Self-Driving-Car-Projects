@@ -129,9 +129,16 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   </td></tr></table></td></tr></table></td></tr><tr><td>Randomly translate image within translation range of 100 and  modify steering
   angle accordingly to handle generalization</td></tr><tr><td><table><tr><td>Random alteration of image  brightness by converting the 
   image from RGB  Color Space to HSV Color Space and scaling the value of V-Channel with a random number in the range of (0.25 to 1.25) 
-  and then converting the image back to RGB Color Space from HSV Color Space</td><tr><tr><td><table><tr><td>1</td></tr><tr><td>2</td>
-  </tr></table></td></tr><tr><td><table><tr><td>3</td></tr><tr><td>4</td></tr></table></td></tr><tr><td><table><tr><td>5</td></tr><tr>
-  <td>6</td></tr></table></td></tr></table></td></tr><tr><table><tr>
+  and then converting the image back to RGB Color Space from HSV Color Space</td><tr><tr><td><table><tr><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53691580-efe2e280-3da6-11e9-9ea3-1f2dc37f982a.PNG"></td></tr><tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53691586-143ebf00-3da7-11e9-933e-cb24ce655faf.PNG"></td>
+  </tr></table></td></tr><tr><td><table><tr><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53691589-24ef3500-3da7-11e9-8558-aa2f490ece6e.PNG"></td></tr><tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53691597-4e0fc580-3da7-11e9-8da7-966f9641d505.PNG"></td></tr>
+  </table></td></tr><tr><td><table><tr><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53691606-6da6ee00-3da7-11e9-8718-6c993ba487c6.PNG"></td></tr><tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53691608-78fa1980-3da7-11e9-8251-9ba1aef56196.PNG"></td></tr>
+  </table></td></tr></table></td></tr><tr><table><tr>
   <td>Converting Images from BGR Color Space to RGB Color Space</td></tr><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53690634-57436700-3d94-11e9-8b6e-dc7cfe42c685.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53690700-b2c22480-3d95-11e9-82d3-e762d3c614c3.PNG"></td></tr><tr>
