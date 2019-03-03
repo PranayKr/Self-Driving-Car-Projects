@@ -118,8 +118,8 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.25</td></tr></table></td>
   </tr><tr><td>one</td></tr></table></td><td><table><tr><td><table><tr><td colspan=3 align="center">Random Selection of Left/Right or 
   Center Images with STEERING ANGLE CORRECTION value as (+/-) 0.2</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>
-  (+) 0.2</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.2</td></tr></table></td></tr><tr><td>two</td>
-  </tr></table></td></tr>  
+  (+) 0.2</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.2</td></tr></table></td></tr><tr><td>Random 
+  flipping of image left/right</td></tr></table></td></tr>  
 </table>
   
 ### Model Architecture and Training Strategy
