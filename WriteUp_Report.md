@@ -150,6 +150,7 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <td colspan=3><Image src="https://user-images.githubusercontent.com/25223180/53692575-7358ff80-3db8-11e9-9808-efa292d94255.PNG"></td>
   </tr></table></td></tr><tr><td><table><tr><td>Random flipping of image left/right to change the steering angle</td></tr><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53692739-1f034f00-3dbb-11e9-8ed9-e42ba143c479.PNG"></td>
+  </tr><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53692862-fd0acc00-3dbc-11e9-88fc-a60c924c5b10.PNG"></td>
   </tr><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53692743-232f6c80-3dbb-11e9-9981-72744bb4b114.PNG"></td>
   </tr></table></td></tr><tr>
   <td>Randomly translate image horizontally/vertically with steering angle adjustment to handle generalization</td></tr><tr><td>Random 
