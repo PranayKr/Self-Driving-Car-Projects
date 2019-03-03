@@ -175,8 +175,27 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
 </table>
 
 ### Solution Design Approach
+I decided to go for a supervised leraning based image classification / regression algorithm implementation using deep convolutional
+neural network after looking at the End-to-end solution provided by NVIDIA Team for a similar problem statement
+I decided to use Keras library as it is a high-level wrapper over Tensorflow and theano libraries and can be used for designing and
+training a deep Convolutional-Net model using relatively less number of functions compared to tensorflow
+Initailly I implemented few traditional data-augmentation techniques with Version 1 Model and on testing found that the preformanace 
+of the model in predicting the steering angles could be improved more .
+Hence while training the Version 2 model I took inspiration from teh data augmentaion technique suggested by the NVIDIA team 
+like for instance converting the training image input into YUV Color Space from RGB color space , adding shadows to translated/warped 
+images along with the other data augmentation techniques used previously and training with a relatively larger training data set size 
+and higher natch size with the value of sub samples per epoch being set to 2000
+Also I cropped the image beforehand to remove the top and bottom pixels containing the sky and car front and resized the cropped image
+to the shape suggested by the NVIDIA state-of-the art solution for simialr problem statements
+These modifications along with few changes in the Version 1 ConvNet Model helped in achieving better control over prediction of the
+steering angle of the simulated car when tested upon the lake track simulator enviroment in Unity than previosly achieved.
+Stating that , however , nonetheless the Version 1 Model also performs as expected but the Version 2 model performs relatively better
+in comparison.
 
 ### CONCLUSION
+Using Data Augmentaion techniques and Conv-Net architecture model inspired by the NVIDIA End-to-End Self-Drive Car Implementation along 
+with few changes in Deep CNN model architecture helped in achieving slightly better results compared to Version 1 Model in training and 
+controlling the simulated car over Lake Track Simulation Environment.
 
 ### RESULTS SHOWCASE
 <table>
@@ -201,32 +220,14 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
 </table>
 
 ### FURTHER IMPROVEMENTS (FUTURE WORK SCOPE)
+1) Collect Training Data by running the Car-Agent in Jungle Track Environment so that the Neural-Net model can learn to control
+the car and predict accurate steering angle values to remain on the Jungle Track always in autonomous mode.
+
+2) Using more data augmentation techniques to enhance and modify the training data set so that a generlaized scalable solution
+can be achieved where the Simulated Car-Agent becomes capable of maneuvering itself properly on any king of road/tracks
+it is tested upon
 
 ### REFERENCES
 Self-Driving Car Simulator (LINK : https://github.com/udacity/self-driving-car-sim )   
 NVIDIA Deep ConvNet Model Architecture (LINK : https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/ ) 
    
-### Model Architecture and Training Strategy
-
-#### 1. Solution Design Approach
-
-The overall strategy for deriving a model architecture was to ...
-
-My first step was to use a convolution neural network model similar to the ... I thought this model might be appropriate because ...
-
-In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
-
-To combat the overfitting, I modified the model so that ...
-
-Then I ... 
-
-The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I ....
-
-At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
-
-
-
-
-
-
-
