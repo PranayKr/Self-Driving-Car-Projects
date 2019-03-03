@@ -114,8 +114,9 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <tr><td colspan=2 align="center">DATA AUGMENTATION</td></tr>
   <tr><td align="center">Version 1</td><td align="center">Version 2</td></tr>
   <tr><td><table><tr><td><table><tr><td colspan=3 align="center">Random Selection of Left/Right or Center Images with STEERING ANGLE 
-  CORRECTION value as (+/-) 0.25</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+) 0.25</td></tr><tr><td>left
-  image</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.25</td></tr><tr><td>right image</td></tr></table>
+  CORRECTION value as (+/-) 0.25</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+) 0.25</td></tr><tr>
+  <td colspan=3>left image</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.25</td></tr><tr>
+  <td colspan=3>right image</td></tr></table>                                                                                           
   </td></tr><tr><td>Random flipping of image left/right to change the steering angle</td></tr><tr><td>Randomly translate image within   
   translation range of 100 and modify steering angle accordingly to handle generalization</td></tr><tr><td>Random alteration of image
   brightness by converting the image from RGB Color Space to HSV Color Space and scaling the value of V-Channel with a random number in 
