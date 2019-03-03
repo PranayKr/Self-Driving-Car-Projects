@@ -175,7 +175,7 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
 </table>
 
 ### Solution Design Approach
-I decided to go for a supervised leraning based image classification / regression algorithm implementation using deep convolutional
+I decided to go for a supervised learning based image classification / regression algorithm implementation using deep convolutional
 neural network after looking at the End-to-end solution provided by NVIDIA Team for a similar problem statement
 I decided to use Keras library as it is a high-level wrapper over Tensorflow and theano libraries and can be used for designing and
 training a deep Convolutional-Net model using relatively less number of functions compared to tensorflow
