@@ -94,7 +94,7 @@ For this project the task is to accurately predict the steering angle to be take
      ```   
 # Behavior Cloning Implementation Details (Files Used) :
 
-### Model Architecture / Image Data Preprocessing and Model Training Logic Files:
+### Model Architecture / Image Data Preprocessing / Image Data Augmentation and Model Training Logic Files:
   1) model.py (Version 1) 
   2) model_V2.py (Version 2)
 
@@ -119,17 +119,17 @@ For this project the task is to accurately predict the steering angle to be take
   4) Version 2 (Third Person View) (LINK : https://youtu.be/boSpQ0HSPIQ )
   
 ### Data Augmentation Pipeline Results Files provided in the "Data Augmentation Pipeline Results" folder :
-### NOTE: These Results showcase the Data Augmentation techniques used for training the Version 2 model (model_updated.h5)
-  1) pipeline_center_img_v2_*.PNG (* in range of 0 to 1)
-  2) pipeline_left_img_v2_*.PNG (* in range of 0 to 1)
-  3) pipeline_right_img_v2_*.PNG (* in range of 0 to 1)
+#### NOTE: These Results showcase the Data Augmentation techniques used for training the Version 2 model (model_updated.h5)
+  1) pipeline_center_img_v2_*.PNG ( * in range of 0 to 1)
+  2) pipeline_left_img_v2_*.PNG ( * in range of 0 to 1)
+  3) pipeline_right_img_v2_*.PNG ( * in range of 0 to 1)
   
 ### Data Augmentation and Model Summary Visualization Code Files provided in the "Data Augmentation and Model Summary Visualization    Code" folder:
-### NOTE: Data Augmentation and Model Summary Visualizations for both Version 1 (model.h5) and Version 2 (model_updated.h5) Models
+#### NOTE: Data Augmentation and Model Summary Visualizations for both Version 1 (model.h5) and Version 2 (model_updated.h5) Models
   1) Model_Summary_and_Data-Augmentation_Results_V1(.py/.html/.ipynb)
   2) Model_Summary_and_Data-Augmentation_Results_V2(.py/.html/.ipynb)
 
 ### CNN-Model Architecture Summary Snapshots (using summary() function of Keras Library) provided in the "Deep-CNN Model Architecture snapshots" folder:
-### NOTE: Model Architecture Summaries Snapshots of both Version 1 (model.h5) and Version 2 (model_updated.h5) Models
+#### NOTE: Model Architecture Summaries Snapshots of both Version 1 (model.h5) and Version 2 (model_updated.h5) Models
   1) version_1_model_archtcture.PNG
   2) version_2_model_archtcture.PNG
