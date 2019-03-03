@@ -50,7 +50,7 @@ The summary of the values of all the 4 parameters provided along the Images Feed
 1) The Steering Angle measurements range between -1 to 1
 2) The Throttle measurments range between 0 to 1
 3) The Brake measurments all happen to be 0
-4) The Speed measuremnts range between 0 to 30 
+4) The Speed measurements range between 0 to 30 
 
 Efforts were made to develop such a ConvNet Model and improvise on its efficiency and accuracy by trying the below mentioned details
 of 2 different versions of CNN-Model Architecture
