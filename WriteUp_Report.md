@@ -123,7 +123,7 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <td>Converting Images from BGR Color Space to RGB Color Space</td></tr><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53690634-57436700-3d94-11e9-8b6e-dc7cfe42c685.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53690700-b2c22480-3d95-11e9-82d3-e762d3c614c3.PNG"></td></tr><tr>
-  <td>3</td></tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53690745-688d7300-3d96-11e9-8ed9-7ddef379a9d4.PNG"></td></tr>
   </table></td><td><table><tr><td><table><tr><td colspan=3 align="center">Random Selection of Left/Right or Center Images with STEERING
   ANGLE CORRECTION value as (+/-) 0.2</td></tr><tr><td> STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+) 0.2</td></tr><tr><td>
   STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.2</td></tr></table></td></tr><tr><td>Random flipping of image left/right
