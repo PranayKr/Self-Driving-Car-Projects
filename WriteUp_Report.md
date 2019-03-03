@@ -144,11 +144,12 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <td><Image src="https://user-images.githubusercontent.com/25223180/53690700-b2c22480-3d95-11e9-82d3-e762d3c614c3.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53690745-688d7300-3d96-11e9-8ed9-7ddef379a9d4.PNG"></td></tr>
   </table></td><td><table><tr><td><table><tr><td colspan=3 align="center">Random Selection of Left/Right or Center Images with STEERING
-  ANGLE CORRECTION value as (+/-) 0.2</td></tr><tr><td> STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+) 0.2</td></tr><tr><td>
-  STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.2</td></tr></table></td></tr><tr><td>Random flipping of image left/right
-  to change the steering angle</td></tr><tr><td>Randomly translate image horizontally/vertically with steering angle adjustment to
-  handle generalization</td></tr><tr><td>Random alteration of image brightness (lighter or darker)</td></tr><tr><td>Random addition of
-  Shadows to training Images Data</td></tr></table></td></tr>
+  ANGLE CORRECTION value as (+/-) 0.2</td></tr><tr><td> STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+) 0.2</td></tr><tr> 
+  <td colspan=3>left</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.2</td></tr><tr> 
+  <td colspan=3>right</td></tr></table></td></tr><tr><td>Random flipping of image left/right to change the steering angle</td></tr><tr>
+  <td>Randomly translate image horizontally/vertically with steering angle adjustment to handle generalization</td></tr><tr><td>Random 
+  alteration of image brightness (lighter or darker)</td></tr><tr><td>Random addition of Shadows to training Images Data</td></tr>
+  </table></td></tr>
 </table>
 
 ### Solution Design Approach
