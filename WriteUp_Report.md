@@ -153,9 +153,9 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   </tr><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53692862-fd0acc00-3dbc-11e9-88fc-a60c924c5b10.PNG"></td>
   </tr><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53692743-232f6c80-3dbb-11e9-9981-72744bb4b114.PNG"></td>
   </tr></table></td></tr><tr>
-  <td>Randomly translate image horizontally/vertically with steering angle adjustment to handle generalization</td></tr><tr><td>Random 
-  alteration of image brightness (lighter or darker)</td></tr><tr><td>Random addition of Shadows to training Images Data</td></tr>
-  </table></td></tr>
+  <td><table><tr><td>Randomly translate image horizontally/vertically with steering angle adjustment to handle generalization</td></tr>
+  <tr><td>1</td></tr><tr><td>2</td></tr></table></td></tr><tr><td>Random  alteration of image brightness (lighter or darker)</td></tr>
+  <tr><td>Random addition of Shadows to training Images Data</td></tr></table></td></tr>
 </table>
 
 ### Solution Design Approach
