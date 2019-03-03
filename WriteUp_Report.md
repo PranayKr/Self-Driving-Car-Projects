@@ -224,8 +224,8 @@ controlling the simulated car over Lake Track Simulation Environment.
 the car and predict accurate steering angle values to remain on the Jungle Track always in autonomous mode.
 
 2) Using more data augmentation techniques to enhance and modify the training data set so that a generlaized scalable solution
-can be achieved where the Simulated Car-Agent becomes capable of maneuvering itself properly on any king of road/tracks
-it is tested upon
+can be achieved where the Simulated Car-Agent becomes capable of maneuvering itself properly on any kind of road/tracks
+(i.e. Miscellaneous Simulation Environemnts) it is tested upon
 
 ### REFERENCES
 Self-Driving Car Simulator (LINK : https://github.com/udacity/self-driving-car-sim )   
