@@ -24,7 +24,15 @@ For this project the task is to accurately predict the steering angle to be take
     <td><table><tr><td></td><td><img src="https://user-images.githubusercontent.com/25223180/53681720-7d74f280-3d13-11e9-84ca-8198ebafb1a5.png"></td></tr><tr><td>LINK</td><td>https://youtu.be/boSpQ0HSPIQ</td></tr></table></td>
   </tr>
 </table>
-
+# Data Augmentation Pipeline Visualizations Results Showcase
+<table>
+  <tr><td>VERSION 2<td><td>Data Augmentation Pipeline Results</td></tr>
+  <tr><td>Left Image</td><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53694536-52070c00-3dd6-11e9-814e-d82bbe008282.PNG">
+  <Image src="https://user-images.githubusercontent.com/25223180/53694538-559a9300-3dd6-11e9-848c-a131c24dc6e1.PNG"></td>
+  <tr><tr><td>Right Image</td><td>image</td></tr><tr><td>Center Image</td><td>image</td></tr> 
+</table>
+    
 # Installation Instructions to setup the Project :
 ### Setting Up Python Environment :
   a) Download and install Anaconda 3 (latest version 5.3) from this link (https://www.anaconda.com/download/)
