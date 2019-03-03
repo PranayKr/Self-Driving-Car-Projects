@@ -48,8 +48,8 @@ Cameras) and lables-set (Steering Angle Values) Basically the model trained on t
 needs to predict the value of the lable "Steering Angle".
 The summary of the values of all the 4 parameters provided along the Images Feed (corresponding to 3 cameras):
 1) The Steering Angle measurements range between -1 to 1
-2) The Throttle measurments range between 0 to 1
-3) The Brake measurments all happen to be 0
+2) The Throttle measurements range between 0 to 1
+3) The Brake measurements all happen to be 0
 4) The Speed measurements range between 0 to 30 
 
 Efforts were made to develop such a ConvNet Model and improvise on its efficiency and accuracy by trying the below mentioned details
