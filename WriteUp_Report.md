@@ -128,7 +128,7 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   </td></tr><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53691090-1439c180-3d9d-11e9-9f9a-c2ad427fd257.PNG">
   </td></tr></table></td></tr></table></td></tr><tr><td><table><tr><td>Randomly translate image within translation range of 100 and  
   modify steering angle accordingly to handle generalization</td><tr><tr><td>
-  <Image src="https://user-images.githubusercontent.com/25223180/53693970-9a6dfc00-3dcd-11e9-9327-b83004e986b7.png"></td></tr></table>
+  <Image src="https://user-images.githubusercontent.com/25223180/53694021-ad350080-3dce-11e9-890d-4858ba20b44b.PNG"></td></tr></table>
   </td></tr><tr><td><table>
   <tr><td>Random alteration of image brightness by converting the image from RGB  Color Space to HSV Color Space and scaling the value 
   of V-Channel with a random number in the range of (0.25 to 1.25) and then converting the image back to RGB Color Space from HSV Color 
