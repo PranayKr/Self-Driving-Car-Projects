@@ -126,10 +126,13 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <td><Image src="https://user-images.githubusercontent.com/25223180/53691061-9675b600-3d9c-11e9-8c6e-8cfc17a5dbad.PNG"></td></tr><tr>
   <td><table><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53691088-100da400-3d9d-11e9-893a-e37ae786b0ff.PNG">
   </td></tr><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53691090-1439c180-3d9d-11e9-9f9a-c2ad427fd257.PNG">
-  </td></tr></table></td></tr></table></td></tr><tr><td>Randomly translate image within translation range of 100 and  modify steering
-  angle accordingly to handle generalization</td></tr><tr><td><table><tr><td>Random alteration of image  brightness by converting the 
-  image from RGB  Color Space to HSV Color Space and scaling the value of V-Channel with a random number in the range of (0.25 to 1.25) 
-  and then converting the image back to RGB Color Space from HSV Color Space</td><tr><tr><td><table><tr><td>
+  </td></tr></table></td></tr></table></td></tr><tr><td><table><tr><td>Randomly translate image within translation range of 100 and  
+  modify steering angle accordingly to handle generalization</td><tr><tr><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53693970-9a6dfc00-3dcd-11e9-9327-b83004e986b7.png"></td></tr></table>
+  </td></tr><tr><td><table>
+  <tr><td>Random alteration of image brightness by converting the image from RGB  Color Space to HSV Color Space and scaling the value 
+  of V-Channel with a random number in the range of (0.25 to 1.25) and then converting the image back to RGB Color Space from HSV Color 
+  Space</td><tr><tr><td><table><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53691580-efe2e280-3da6-11e9-9ea3-1f2dc37f982a.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53691708-ab0c7b00-3da9-11e9-9728-ffa50194cd32.PNG"></td>
   </tr></table></td></tr><tr><td><table><tr><td>
