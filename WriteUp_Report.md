@@ -97,7 +97,9 @@ of 2 different versions of CNN Architecture
 
 ### DATA PREPROCESSING AND DATA AUGMENTATION 
 #### Creation of the Training Set & Training Process
-The Sample Training Data was used for both the versions of the Deep ConvNet Models
+The Sample Training Data-Set (corresponding to the Lake Track Simulation Environment) enhanced / modified by relatively different 
+Data-Augmentation techniques was used for training both the versions of the Deep ConvNet Models.
+(Version 1 (model.h5) and Version 2 (model_updated.h5)).
 The Data was split into Training and Validation Set to measure the performance of the CNN model at every epoch.
 Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE loss function (MEAN SQUARE ERROR)
 <table>
