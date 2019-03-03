@@ -131,7 +131,7 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   image from RGB  Color Space to HSV Color Space and scaling the value of V-Channel with a random number in the range of (0.25 to 1.25) 
   and then converting the image back to RGB Color Space from HSV Color Space</td><tr><tr><td><table><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53691580-efe2e280-3da6-11e9-9ea3-1f2dc37f982a.PNG"></td></tr><tr>
-  <td><Image src="https://user-images.githubusercontent.com/25223180/53691586-143ebf00-3da7-11e9-933e-cb24ce655faf.PNG"></td>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53691708-ab0c7b00-3da9-11e9-9728-ffa50194cd32.PNG"></td>
   </tr></table></td></tr><tr><td><table><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53691589-24ef3500-3da7-11e9-8558-aa2f490ece6e.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53691597-4e0fc580-3da7-11e9-8da7-966f9641d505.PNG"></td></tr>
