@@ -187,6 +187,8 @@ augmentation techniques used previously and training with a relatively larger tr
 value of sub-samples per epoch being set to 2000. Also I cropped the image beforehand to remove the top and bottom pixels containing
 the sky and car front and resized the cropped image to the shape suggested by the NVIDIA state-of-the art solution for simialr problem 
 statement.
+Besides I used Dropout layers in both Version 1 model architecture (model.h5) and Version 2 model architecture (model_updated.h5)
+to reduce overfitting on the training data-set using a probability value of 0.5 in both the versions of the CNN-Model.
 These modifications along with few changes in the Version 1 ConvNet Model helped in achieving better control over prediction of the
 steering angle of the simulated car when tested upon the lake track simulator enviroment in Unity than previosly achieved.
 Stating that , however , nonetheless the Version 1 Model also performs as expected but the Version 2 model performs relatively better
