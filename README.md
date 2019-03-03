@@ -30,7 +30,12 @@ For this project the task is to accurately predict the steering angle to be take
   <tr><td>Left Image</td><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53694536-52070c00-3dd6-11e9-814e-d82bbe008282.PNG">
   <Image src="https://user-images.githubusercontent.com/25223180/53694538-559a9300-3dd6-11e9-848c-a131c24dc6e1.PNG"></td>
-  <tr><tr><td>Right Image</td><td>image</td></tr><tr><td>Center Image</td><td>image</td></tr> 
+  <tr><tr><td>Right Image</td><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53694542-60552800-3dd6-11e9-9c33-31329e7647c1.PNG">
+  <Image src="https://user-images.githubusercontent.com/25223180/53694544-64814580-3dd6-11e9-9374-0335f07dbbf4.PNG"></td></tr><tr>
+  <td>Center Image</td><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53694534-4c112b00-3dd6-11e9-9b2c-250e1333b86c.PNG">
+  <Image src="https://user-images.githubusercontent.com/25223180/53694535-4fa4b200-3dd6-11e9-92c6-2e5b07363e7f.PNG"></td></tr> 
 </table>
     
 # Installation Instructions to setup the Project :
