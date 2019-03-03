@@ -186,13 +186,13 @@ I decided to go for a supervised learning based image classification / regressio
 neural network after looking at the End-to-end solution provided by NVIDIA Team for a similar problem statement
 I decided to use Keras library as it is a high-level wrapper over Tensorflow and Theano libraries and can be used for designing and
 training a deep Convolutional-Net model using relatively less number of functions compared to Tensorflow.
-Initially I implemented few traditional data-augmentation techniques with Version 1 Model and on testing found that the performanace 
+Initially I implemented few traditional data-augmentation techniques with Version 1 Model and on testing found that the performance 
 of the model in predicting the steering angles could be improved more .
 Hence while training the Version 2 model I took inspiration from the data augmentaion techniques suggested by the NVIDIA team 
 like for instance converting the training image input into YUV Color Space from RGB color space along with the other data 
-augmentation techniques used previously and training with a relatively larger training data set size and higher batch size with the 
+augmentation techniques used previously and training with a relatively larger training data set size and higher batch size (40) with the 
 value of sub-samples per epoch being set to 2000. Also I cropped the image beforehand to remove the top and bottom pixels containing
-the sky and car front and resized the cropped image to the shape suggested by the NVIDIA state-of-the art solution for simialr problem 
+the sky and car front and resized the cropped image to the shape suggested by the NVIDIA state-of-the art solution for similar problem 
 statement.
 Besides I used Dropout layers in both Version 1 model architecture (model.h5) and Version 2 model architecture (model_updated.h5)
 to reduce overfitting on the training data-set using a probability value of 0.5 in both the versions of the CNN-Model.
