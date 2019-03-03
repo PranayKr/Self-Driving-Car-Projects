@@ -157,7 +157,8 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
 ### FURTHER IMPROVEMENTS (FUTURE WORK SCOPE)
 
 ### REFERENCES
-
+1) Self-Driving Car Simulator (LINK : https://github.com/udacity/self-driving-car-sim )
+2) NVIDIA Deep ConvNet Model Architecture (LINK : https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/ )
 
 ### Model Architecture and Training Strategy
 
