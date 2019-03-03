@@ -43,12 +43,17 @@ The Convolutional Layers act as feature-learners learning the unique features of
 the fully connected layers (feedforward dense layers) take up the task of executing logistic regression algorithm on the basis of the 
 output of Convolutional Layers to predict steering angle label's value provided a certain Image as input.
 
-Hence During Training the Training data has been divided into features (Input Feed Images procured from the Central,Right and Left
-Cameras) and lables (Speed / Throttle / Steering and Brake values) out of which basically the model needs to predict the value of the
-lable "Steering Angle"
+Hence During Training the Training data has been divided into features-set (Input Feed Images procured from the Central,Right and Left
+Cameras) and lables-set (Steering Angle Values) Basically the model trained on the Left/Right/Center Camera Input feeds (Images)
+needs to predict the value of the lable "Steering Angle".
+The summary of the values of all the 4 parameters provided along the Images Feed (corresponding to 3 cameras):
+1) The Steering Angle measurements range between -1 to 1
+2) The Throttle measurments range between 0 to 1
+3) The Brake measurments all happen to be 0
+4) The Speed measuremnts range between 0 to 30 
 
 Efforts were made to develop such a ConvNet Model and improvise on its efficiency and accuracy by trying the below mentioned details
-of 2 different versions of CNN Architecture
+of 2 different versions of CNN-Model Architecture
 
 <table>
   <tr><td colspan=2 align="center">CNN Model Architecture Summary (using Keras Library)</td></tr>
