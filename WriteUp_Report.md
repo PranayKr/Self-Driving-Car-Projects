@@ -177,16 +177,16 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
 ### Solution Design Approach
 I decided to go for a supervised learning based image classification / regression algorithm implementation using deep convolutional
 neural network after looking at the End-to-end solution provided by NVIDIA Team for a similar problem statement
-I decided to use Keras library as it is a high-level wrapper over Tensorflow and theano libraries and can be used for designing and
-training a deep Convolutional-Net model using relatively less number of functions compared to tensorflow
-Initailly I implemented few traditional data-augmentation techniques with Version 1 Model and on testing found that the preformanace 
+I decided to use Keras library as it is a high-level wrapper over Tensorflow and Theano libraries and can be used for designing and
+training a deep Convolutional-Net model using relatively less number of functions compared to Tensorflow.
+Initially I implemented few traditional data-augmentation techniques with Version 1 Model and on testing found that the performanace 
 of the model in predicting the steering angles could be improved more .
-Hence while training the Version 2 model I took inspiration from teh data augmentaion technique suggested by the NVIDIA team 
-like for instance converting the training image input into YUV Color Space from RGB color space , adding shadows to translated/warped 
-images along with the other data augmentation techniques used previously and training with a relatively larger training data set size 
-and higher natch size with the value of sub samples per epoch being set to 2000
-Also I cropped the image beforehand to remove the top and bottom pixels containing the sky and car front and resized the cropped image
-to the shape suggested by the NVIDIA state-of-the art solution for simialr problem statements
+Hence while training the Version 2 model I took inspiration from the data augmentaion techniques suggested by the NVIDIA team 
+like for instance converting the training image input into YUV Color Space from RGB color space along with the other data 
+augmentation techniques used previously and training with a relatively larger training data set size and higher batch size with the 
+value of sub-samples per epoch being set to 2000. Also I cropped the image beforehand to remove the top and bottom pixels containing
+the sky and car front and resized the cropped image to the shape suggested by the NVIDIA state-of-the art solution for simialr problem 
+statement.
 These modifications along with few changes in the Version 1 ConvNet Model helped in achieving better control over prediction of the
 steering angle of the simulated car when tested upon the lake track simulator enviroment in Unity than previosly achieved.
 Stating that , however , nonetheless the Version 1 Model also performs as expected but the Version 2 model performs relatively better
