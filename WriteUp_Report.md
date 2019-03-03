@@ -119,12 +119,13 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   </tr><tr><td>Random flipping of image left/right to change the steering angle</td></tr><tr><td>Randomly translate image within 
   translation range of 100 and modify steering angle accordingly to handle generalization</td></tr><tr><td>Random alteration of image
   brightness by converting the image from RGB Color Space to HSV Color Space and scaling the value of V-Channel with a random number in 
-  the range of (0.25 to 1.25) and then converting the image back to RGB Color Space from HSV Color Space</td></tr></table></td>
-  <td><table><tr><td><table><tr><td colspan=3 align="center">Random Selection of Left/Right or Center Images with STEERING ANGLE
-  CORRECTION value as (+/-) 0.2</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+) 0.2</td></tr><tr><td>STEERING 
-  ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.2</td></tr></table></td></tr><tr><td>Random flipping of image left/right to change 
-  the steering angle</td></tr><tr><td>Randomly translate image horizontally/vertically with steering angle adjustment to handle 
-  generalization</td></tr><tr><td>Random alteration of image brightness (lighter or darker)</td></tr></table></td></tr>  
+  the range of (0.25 to 1.25) and then converting the image back to RGB Color Space from HSV Color Space</td></tr><tr><td>Next</td></tr>
+  </table></td><td><table><tr><td><table><tr><td colspan=3 align="center">Random Selection of Left/Right or Center Images with STEERING 
+  ANGLE CORRECTION value as (+/-) 0.2</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+) 0.2</td></tr><tr><td>
+  STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.2</td></tr></table></td></tr><tr><td>Random flipping of image left/right 
+  to change the steering angle</td></tr><tr><td>Randomly translate image horizontally/vertically with steering angle adjustment to 
+  handle generalization</td></tr><tr><td>Random alteration of image brightness (lighter or darker)</td></tr><tr><td>Next</td></tr>
+  </table></td></tr>
 </table>
   
 ### Model Architecture and Training Strategy
