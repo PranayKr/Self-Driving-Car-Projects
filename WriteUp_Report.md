@@ -110,7 +110,17 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
    make gradients work better</td><td>Images are normalized (image data divided by 127.5 and subtracted 1.0) to avoid saturation and 
    make gradients work better</td></tr>    
 </table>
-
+<table>
+  <tr><td colspan=2 align="center">DATA AUGMENTATION</td></tr>
+  <tr><td align="center">Version 1</td><td align="center">Version 2</td></tr>
+  <tr><td><table><tr><td colspan=3 align=c"enter">Random Selection of Left/Right or Center Images with STEERING ANGLE CORRECTION value
+  as (+/-)0.2</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>LEFT IMAGE</td><td>(+)0.2</td></tr><tr><td>STEERING ANGLE
+  CORRECTION</td><td>RIGHT IMAGE</td><td>(-)0.2</td></tr></table></td><td><table><tr><td><tr><td colspan=3 align=c"enter">Random 
+  Selection of Left/Right or Center Images with STEERING ANGLE CORRECTION value as (+/-)0.25</td></tr><tr><td>STEERING ANGLE 
+  CORRECTION</td><td>LEFT IMAGE</td><td>(+)0.25</td></tr><tr><td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-)0.25</td></tr>
+  </table></td></tr></table></td></tr>
+</table> 
+ 
 ### Model Architecture and Training Strategy
 
 #### 1. Solution Design Approach
