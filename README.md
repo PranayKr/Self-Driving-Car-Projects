@@ -24,6 +24,7 @@ For this project the task is to accurately predict the steering angle to be take
     <td><table><tr><td></td><td><img src="https://user-images.githubusercontent.com/25223180/53681720-7d74f280-3d13-11e9-84ca-8198ebafb1a5.png"></td></tr><tr><td>LINK</td><td>https://youtu.be/boSpQ0HSPIQ</td></tr></table></td>
   </tr>
 </table>
+
 # Data Augmentation Pipeline Visualizations Results Showcase
 <table>
   <tr><td>VERSION 2</td><td>Data Augmentation Pipeline Results</td></tr>
