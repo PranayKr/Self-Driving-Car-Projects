@@ -119,8 +119,9 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <td colspan=3><Image src="https://user-images.githubusercontent.com/25223180/53690842-3da41e80-3d98-11e9-9de7-47601ebeeab1.PNG"></td>
   </tr><tr><td>STEERING ANGLE CORRECTION</td><td>RIGHT IMAGE</td><td>(-) 0.25</td></tr><tr>
   <td colspan=3><Image src="https://user-images.githubusercontent.com/25223180/53690866-bacf9380-3d98-11e9-9769-178f7bc6779b.PNG"></td>
-  </tr><tr><td>STEERING ANGLE CORRECTION</td><td>CENTER IMAGE</td><td>0 (NOT REQUIRED)</td></tr><tr><td>1</td></tr></table></td></tr>
-  <tr><td><table><tr><td>Random flipping of image left/right to change the steering angle</td></tr><tr><td>
+  </tr><tr><td>STEERING ANGLE CORRECTION</td><td>CENTER IMAGE</td><td>0 (NOT REQUIRED)</td></tr><tr><td colspan="3"> 
+  <Image src="https://user-images.githubusercontent.com/25223180/53691245-8f9c7280-3d9f-11e9-9bec-b7b50a8cb180.PNG"></td>
+  </tr></table></td></tr><tr><td><table><tr><td>Random flipping of image left/right to change the steering angle</td></tr><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53691051-68907180-3d9c-11e9-9706-8ac796de8427.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53691061-9675b600-3d9c-11e9-8c6e-8cfc17a5dbad.PNG"></td></tr><tr>
   <td><table><tr><td><Image src="https://user-images.githubusercontent.com/25223180/53691088-100da400-3d9d-11e9-893a-e37ae786b0ff.PNG">
