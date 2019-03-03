@@ -27,7 +27,7 @@ For this project the task is to accurately predict the steering angle to be take
 
 # Data Augmentation Pipeline Visualizations Results Showcase
 <table>
-  <tr><td align="center">CNN Model (VERSION 2)</td><td>Data Augmentation Pipeline Results</td></tr>
+  <tr><td>CNN Model (VERSION 2)</td><td>Data Augmentation Pipeline Results</td></tr>
   <tr><td>Left Image</td><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53694536-52070c00-3dd6-11e9-814e-d82bbe008282.PNG">
   <Image src="https://user-images.githubusercontent.com/25223180/53694538-559a9300-3dd6-11e9-848c-a131c24dc6e1.PNG"></td>
