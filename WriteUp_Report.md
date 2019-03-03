@@ -130,7 +130,8 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   angle accordingly to handle generalization</td></tr><tr><td><table><tr><td>Random alteration of image  brightness by converting the 
   image from RGB  Color Space to HSV Color Space and scaling the value of V-Channel with a random number in the range of (0.25 to 1.25) 
   and then converting the image back to RGB Color Space from HSV Color Space</td><tr><tr><td><table><tr><td>1</td></tr><tr><td>2</td>
-  </tr></table></td></tr><tr><td>2</td></tr><tr><td>3</td></tr></table></td></tr><tr><table><tr>
+  </tr></table></td></tr><tr><td><table><tr><td>3</td></tr><tr><td>4</td></tr></table></td></tr><tr><td><table><tr><td>5</td></tr><tr>
+  <td>6</td></tr></table></td></tr></table></td></tr><tr><table><tr>
   <td>Converting Images from BGR Color Space to RGB Color Space</td></tr><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53690634-57436700-3d94-11e9-8b6e-dc7cfe42c685.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53690700-b2c22480-3d95-11e9-82d3-e762d3c614c3.PNG"></td></tr><tr>
