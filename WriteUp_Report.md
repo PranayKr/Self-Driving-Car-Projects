@@ -156,8 +156,13 @@ Adam optimizer was used for optimization with learning rate of 1.0e-4 and MSE lo
   <td><table><tr><td>Randomly translate image horizontally/vertically with steering angle adjustment to handle generalization</td></tr>
   <tr><td><Image src="https://user-images.githubusercontent.com/25223180/53692863-02681680-3dbd-11e9-84b4-4796c3d5daed.PNG"></td></tr>
   <tr><td><Image src="https://user-images.githubusercontent.com/25223180/53692865-072cca80-3dbd-11e9-9370-b7587ffe4999.PNG"></td></tr>
-  </table></td></tr><tr><td>Random  alteration of image brightness (lighter or darker)</td></tr>
-  <tr><td><table><tr><td>Random addition of Shadows to training Images Data</td></tr><tr><td>
+  </table></td></tr><tr><td><table><tr><td>Random  alteration of image brightness (lighter or darker)</td></tr><tr><td>
+  <Image src="https://user-images.githubusercontent.com/25223180/53693857-38f95d80-3dcc-11e9-9f07-3b4693d5f640.PNG"></td></tr><tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53693859-3d257b00-3dcc-11e9-8148-18c85def57d3.PNG"></td></tr><tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53693862-4282c580-3dcc-11e9-8ba6-94d086fca7a1.PNG"></td></tr><tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53693863-46164c80-3dcc-11e9-9295-9d80574c3fe7.PNG"></td></tr><tr>
+  <td><Image src="https://user-images.githubusercontent.com/25223180/53693864-4adb0080-3dcc-11e9-9ed4-84c084299ce7.PNG"></td></tr>
+  </table></td></tr><tr><td><table><tr><td>Random addition of Shadows to training Images Data</td></tr><tr><td>
   <Image src="https://user-images.githubusercontent.com/25223180/53693792-1b77c400-3dcb-11e9-9803-6f5286c3a849.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53693793-1fa3e180-3dcb-11e9-915e-b66400b16930.PNG"></td></tr><tr>
   <td><Image src="https://user-images.githubusercontent.com/25223180/53693797-25012c00-3dcb-11e9-8334-690190c8bb1b.PNG"></td></tr><tr>
