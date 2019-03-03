@@ -39,7 +39,7 @@ The design of the network is inspired from the state-of-the-Art NVIDIA model, wh
   <tr><td><image src="https://user-images.githubusercontent.com/25223180/53684690-74494d00-3d36-11e9-9f14-8a0cfad23e39.png"</td></tr>
 </table>
 The Convolutional Neural Net Model created has multiple Convolutional Layers followed by few feedforward Neural-Net Layers.
-The Convoluyional Layers act as feature-learners learning the unique features of the lanes images provided as camera feed whereas
+The Convolutional Layers act as feature-learners learning the unique features of the lanes images provided as camera feed whereas
 the fully connected layers (feedforward dense layers) take up the task of executing logistic regression algorithm on the basis of the 
 output of Convolutional Layers to predict steering angle label's value provided a certain Image as input.
 
