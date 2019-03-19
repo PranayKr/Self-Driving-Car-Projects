@@ -207,5 +207,13 @@ respectively.
        3) The KalmanFilter class is defined in kalman_filter.cpp C++ source file and kalman_filter.h header file.
          
 # Extended Kalman Filter Implementation Details (Files Used) :
+1) Source Code Files (including the main C++ Source Files and Header Files) are present in the "src" folder
+2) Data file (obj_pose-laser-radar-synthetic-input.txt) present in the "data" folder
+3) Results Output Video files present in the "Output_Videos" folder
+4) Final Output Snapshots files present in the "Output_Results_Snapshots" folder
+5) Files containing details about the structure of the code templates present in the "Docs" folder
+6) CMakeLists.txt file that will be used when compiling code
+7) Last Build files generated and compiled present in the "build" folder
+8) Output GIFs files present in the "Output_GIFs" folder
   
      
