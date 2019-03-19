@@ -79,7 +79,8 @@ respectively.
    implementing the Extended Kalman Filter.The package does this by setting up a web socket server connection from the C++ program
    to the simulator, which acts as the host
 
-3) Other Important Dependencies
+3) Other Important Dependencies :
+   
    a) cmake >= 3.5
       All OSes: Installation Instructions are in this link (https://cmake.org/install/)
    b) make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -92,12 +93,14 @@ respectively.
       3) Windows: recommend using MinGW (please follow this link to get details about MinGW (http://www.mingw.org/))
       
 4) Launch the Ubuntu Bash Environment on system (using Windows 10) 
-   After Setting the Username and Password execute the below mentioned commands in sequential order
+   After Setting the Username and Password execute the below mentioned commands :
+   
    a) sudo apt-get update
    b) sudo apt-get install git
    c) sudo apt-get install cmake
    d) Installing cmake requires g++ compiler. Install a g++ version 4.9 or greater. 
       Execute the following commands to install g++ compiler:
+      
       1) sudo add-apt-repository ppa:ubuntu-toolchain-r/test
       2) sudo apt-get update
       3) sudo apt-get install g++-4.9
@@ -109,11 +112,13 @@ respectively.
    i) navigate to CarND-Kidnapped-Vehicle-Project/ folder in the Ubuntu Bash Environment and execute the following command:
       ./install-ubuntu.sh
    ## BUILD Instructions to Compile the Source Code files:
+   
    j) a) mkdir build (create a build directory)
       b) cd build ( go inside the /build directory)
       c) cmake ..
       d) make
    ## LAUNCH THE SIMULATOR
+   
    k) a) Open the Dowloaded Simulator (link :https://github.com/udacity/self-driving-car-sim/releases) in Windows 10 environment
       b) In the main menu screen select Project 1/2 EKF and UKF
       c) Once the scene is loaded hit the START button to observe how the object moves and how measurement markers are positioned in the 
@@ -123,6 +128,7 @@ respectively.
          IN/OUT buttons can be used to focus the camera. Pressing the ESCAPE KEY returns to the simulator main menu.
       d) Hitting Restart or switching between data sets only refreshes the simulator state and not the Kalman Filter's saved results. 
     ## RUN the Source Code
+    
     l) Navigate to /build directory and execute the following command after the Simulator has been launched and project environment 
        loaded:
        ./ExtendedKF
@@ -203,6 +209,7 @@ respectively.
            a) functions to calculate RMSE and the Jacobian matrix
 
     ### CODE FUNCTIONAL FLOW OVERVIEW:
+      
       1) Main.cpp reads in the data and sends a sensor measurement to FusionEKF.cpp
       2) FusionEKF.cpp takes the sensor data and initializes variables and updates variables. 
          The Kalman filter equations are not in this file. FusionEKF.cpp has a variable called ekf_, which is an instance of a 
