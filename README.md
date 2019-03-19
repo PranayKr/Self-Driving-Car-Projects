@@ -150,7 +150,17 @@ respectively.
          git clone https://github.com/udacity/CarND-Mercedes-SF-Utilities
       2) Check the MATLAB Scripts provided inside the matlab_examples/ folder in the cloned repo to generate additional data
       3) Visualization Package also available as python scripts inside the python/ folder in the cloned repo
-       
+   ### KALMAN FILTER LOGIC PIPELINE EXPLANATION
+       The three main steps for programming a Kalman filter are:
+       1) initializing Kalman filter variables
+       2) predicting where our object is going to be after a time step \Delta{t}Δt
+       3) updating where our object is based on sensor measurements
+       4) Then the prediction and update steps repeat themselves in a loop.
+          
+       To measure the accuracy of Kalman filter logic , root mean squared error is calculated comparing the Kalman filter results 
+       with the provided ground truth values.
+          
+       These three steps (initialize, predict, update) plus calculating RMSE encapsulate the entire extended Kalman filter project.   
    ## SOURCE CODE Files Functional Overview :
       1) Data File (obj_pose-laser-radar-synthetic-input.txt)
          The simulator will be using this data file, and feed main.cpp values from it one line at a time.
@@ -171,18 +181,6 @@ respectively.
          The ground truth [px,py,vx,vy] for each line in the data file gets pushed ontoground_truthso RMSE can be calculated later 
          from tools.cpp.
            
-   ### KALMAN FILTER LOGIC PIPELINE EXPLANATION
-       The three main steps for programming a Kalman filter are:
-       1) initializing Kalman filter variables
-       2) predicting where our object is going to be after a time step \Delta{t}Δt
-       3) updating where our object is based on sensor measurements
-       4) Then the prediction and update steps repeat themselves in a loop.
-          
-       To measure the accuracy of Kalman filter logic , root mean squared error is calculated comparing the Kalman filter results 
-       with the provided ground truth values.
-          
-       These three steps (initialize, predict, update) plus calculating RMSE encapsulate the entire extended Kalman filter project.
-          
       2) main.cpp : 
          a) communicates with the Unity Extended Kalman Filter Simulator Environment receiving data measurements from the data file
             obj_pose-laser-radar-synthetic-input.txt
