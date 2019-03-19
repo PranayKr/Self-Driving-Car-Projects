@@ -4,7 +4,7 @@
 For this project the task is to implement Extended Kalman Filter in C++ using Unity Extended-Kalman-Filter Simulator , simulated lidar and radar measurements readings detecting a bicycle travelling around the simulated car in the simulation environment to track the bicycle's position and velocity. Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles.The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
 
 # Solution Criteria
-px, py, vx and vy RMSE (Root-Mean-Square-Error) values should be less than or equal to the values [.11, .11, 0.52, 0.52]
+px, py, vx and vy RMSE (Root-Mean-Square-Error) values should be less than or equal to the tolerance values [0.11, 0.11, 0.52, 0.52]
 respectively.
 
 # Results Showcase
