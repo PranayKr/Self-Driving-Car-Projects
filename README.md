@@ -151,7 +151,7 @@ respectively.
       2) Check the MATLAB Scripts provided inside the matlab_examples/ folder in the cloned repo to generate additional data
       3) Visualization Package also available as python scripts inside the python/ folder in the cloned repo
        
-   ## SOURCE CODE FILE Functional Overview :
+   ## SOURCE CODE Files Functional Overview :
       1) Data File (obj_pose-laser-radar-synthetic-input.txt)
          The simulator will be using this data file, and feed main.cpp values from it one line at a time.
          Each row represents a sensor measurement where the first column tells you if the measurement comes from radar (R) or lidar (L). 
@@ -208,5 +208,6 @@ respectively.
           and update equations.
        3) The KalmanFilter class is defined in kalman_filter.cpp C++ source file and kalman_filter.h header file.
          
-# Extended Kalman Filter Implementation Details (Files Used) :      
+# Extended Kalman Filter Implementation Details (Files Used) :
+  
      
